@@ -1,11 +1,11 @@
-# Supplementary Material
+# Bundel Recommendation
 
 ## WORKER BASIC INFORMATION
 Figure 1 shows the distribution of workers' age, education, country, occupation, gender and shopping frequency for the two batches.
 
 
 ## PARAMETER TUNING AND SETTINGS FOR BUNDLE DETECTION
-A grid search in $\{0.0001, 0.001, 0.01\}$ is applied to find out the optimal settings for ${support}$ and $confidence$, and both are set as 0.001 across the three domains.
+A grid search in ![](http://latex.codecogs.com/gif.latex?\\{0.0001, 0.001, 0.01}) is applied to find out the optimal settings for ${support}$ and $confidence$, and both are set as 0.001 across the three domains.
 
 
 ## PARAMETER TUNING AND SETTINGS FOR BUNDLE COMPLETION
