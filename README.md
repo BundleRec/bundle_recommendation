@@ -7,7 +7,7 @@ Figure 1 shows the distribution of workers' age, education, country, occupation,
 
 
 ![basic_information](img/worker_basic_information.png)
-<p align="center">Figure 1: Worker basic information in the first and second batch.</p>
+<p align="center">Figure 1: Worker basic information in the first and second batches.</p>
 
 ### Parameter Tuning and Settings for Bundle Detection
 A grid search in {0.0001, 0.001, 0.01} is applied to find out the optimal settings for *support* and *confidence*, and both are set as 0.001 across the three domains.
