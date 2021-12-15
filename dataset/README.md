@@ -1,7 +1,7 @@
 ## Summary
 This data set consists of three domains' data collected from Mturk website. Table 1 shows the statistics of data.
 
-Table 1: Statistics of datasets.
+#### Table 1: Statistics of datasets.
 
 |      | Electronic | Clothing | Food |
 |:------|:------------:|:----------:|:------:|
@@ -17,8 +17,9 @@ Table 1: Statistics of datasets.
 | Density of U-B Interactions | 0.11% | 0.10% | 0.11% |
 
 ## Detailed Descriptions of Data Files
-Here are brief descriptions of the data.
+Table 2 shows brief descriptions of the data files.
 
+#### Table 2: the brief descriptions of the data files
 | File Name | Descriptions |
 |-----------|--------------|
 | session_item.csv |        |
