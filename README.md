@@ -40,6 +40,43 @@ The dimension *d* of representations is set as 20. We apply a same grid search f
 | GCN | ![equation](https://latex.codecogs.com/svg.image?\eta=0.01)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.01)<br>![equation](https://latex.codecogs.com/svg.image?neg\\_sample=1)<br>![equation](https://latex.codecogs.com/svg.image?msg\\_dropout=0.3)<br>![equation](https://latex.codecogs.com/svg.image?node\\_dropout=0)<br>![equation](https://latex.codecogs.com/svg.image?prop\\_layers=2)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=2048) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.001)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?neg\\_sample=1)<br>![equation](https://latex.codecogs.com/svg.image?msg\\_dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?node\\_dropout=0)<br>![equation](https://latex.codecogs.com/svg.image?prop\\_layers=2)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=2048) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.01)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?neg\\_sample=1)<br>![equation](https://latex.codecogs.com/svg.image?msg\\_dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?node\\_dropout=0)<br>![equation](https://latex.codecogs.com/svg.image?prop\\_layers=2)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=2048) |
 | BGCN | ![equation](https://latex.codecogs.com/svg.image?\eta=0.001)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.001)<br>![equation](https://latex.codecogs.com/svg.image?neg\\_sample=1)<br>![equation](https://latex.codecogs.com/svg.image?msg\\_dropout=0.1)<br>![equation](https://latex.codecogs.com/svg.image?node\\_dropout=0)<br>![equation](https://latex.codecogs.com/svg.image?prop\\_layers=2)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=2048) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.01)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.01)<br>![equation](https://latex.codecogs.com/svg.image?neg\\_sample=1)<br>![equation](https://latex.codecogs.com/svg.image?msg\\_dropout=0)<br>![equation](https://latex.codecogs.com/svg.image?node\\_dropout=0)<br>![equation](https://latex.codecogs.com/svg.image?prop\\_layers=2)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=2048) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.01)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.001)<br>![equation](https://latex.codecogs.com/svg.image?neg\\_sample=1)<br>![equation](https://latex.codecogs.com/svg.image?msg\\_dropout=0.1)<br>![equation](https://latex.codecogs.com/svg.image?node\\_dropout=0.1)<br>![equation](https://latex.codecogs.com/svg.image?prop\\_layers=2)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=2048) |
 
+### Statistics of Datasets
+This data set consists of three domains' data collected from Mturk website. Table 3 shows the statistics of data.
+
+#### Table 3: Statistics of datasets.
+
+|      | Electronic | Clothing | Food |
+|:------|:------------:|:----------:|:------:|
+| #Users |    888   |   965    | 879  |
+| #Items |    3499  |   4487   | 3767 |
+| #Sessions | 1145  |   1181   | 1161 |
+| #Bundles | 1750 | 1910 | 1784 |
+| #Intents | 1537 | 1590 | 1323 |
+| Avg. Bundle Size | 3.52 | 3.31 | 3.58 |
+| #U-I Interactions | 6165 | 6326 | 6395 |
+| #U-B Interactions | 1753 | 1912 | 1785 |
+| Density of U-I Interactions | 0.20% | 0.15% | 0.19% |
+| Density of U-B Interactions | 0.11% | 0.10% | 0.11% |
+
+### Detailed Descriptions if Data Files
+Table 4 shows brief descriptions of the data files.
+
+#### Table 4: the brief descriptions of the data files
+| File Name | Descriptions |
+|-----------|--------------|
+| session_item.csv |        |
+| session_bundle.csv| |
+| bundle_item.csv | |
+| item_categories.csv| |
+| user_sesssion.csv| |
+| user_bundle.csv | |
+| user_item.csv | |
+| user_item_pretrain.csv| |
+| bundle_intent.csv | |
+
+
+
+
 ### Acknowledgements
 
 Our datasets are constructed on the basis of Amazon datasets (http://jmcauley.ucsd.edu/data/amazon/links.html).
