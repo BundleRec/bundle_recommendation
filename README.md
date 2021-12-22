@@ -58,7 +58,7 @@ This data set consists of three domains' data collected from Mturk website. Tabl
 | Density of U-I Interactions | 0.20% | 0.15% | 0.19% |
 | Density of U-B Interactions | 0.11% | 0.10% | 0.11% |
 
-### Detailed Descriptions if Data Files
+### Detailed Descriptions of Data Files
 Table 4 shows brief descriptions of the data files.
 
 #### Table 4: the brief descriptions of the data files
