@@ -68,10 +68,10 @@ Table 4 shows brief descriptions of the data files.
 | session_bundle.csv| This file contains the affiliation of session and detected bundles. Each session has at least 1 bundle.<br> This is a tab separated list: `session ID \| bundle ID \|` <br>The bundle IDs are the ones used in the bundle_item.csv ,user_bundle.csv and bundle_intent.csv data sets. |
 | bundle_item.csv | This file contains the affiliation of bundle and its items. Each bundle has at least 2 items.<br> This is a tab separated list: `bundle ID \| item ID \|` <br>The item IDs are the ones used in the user_item.csv and item_categories.csv data sets. |
 | item_categories.csv| This file contains item and its categories.<br> This is a tab separated list: `item ID \| categories \|` <br> The format of data in `categories` column is a list of string. |
-| user_session.csv| This file contains the interaction of user and session.<br> This is a tab separated list: `user ID \| session ID \|` <br>The user IDs are the ones used in the user_bundle.csv and user_item.csv data sets. |
-| user_bundle.csv | This file contains the interaction of user and bundle.<br> This is a tab separated list: `user ID \| bundle ID \|`  |
-| user_item.csv | This file contains the interaction of user and item.<br> This is a tab separated list: `user ID \| item ID \|`  |
-| user_item_pretrain.csv| This file contains the interaction of user and item aiming to obtain pre-trained item representations via BPRMF for model initialization .<br> This is a tab separated list: `user ID \| item ID \|`  |
+| user_session.csv| This file contains the interaction of user and session.<br> This is a tab separated list: `user ID \| session ID \| timestamp \|` <br>The user IDs are the ones used in the user_bundle.csv and user_item.csv data sets. |
+| user_bundle.csv | This file contains the interaction of user and bundle.<br> This is a tab separated list: `user ID \| bundle ID \| timestamp \|`  |
+| user_item.csv | This file contains the interaction of user and item.<br> This is a tab separated list: `user ID \| item ID \| timestamp \|`  |
+| user_item_pretrain.csv| This file contains the interaction of user and item aiming to obtain pre-trained item representations via BPRMF for model initialization .<br> This is a tab separated list: `user ID \| item ID \| timestamp \|`  |
 | bundle_intent.csv | This file contains bundle and its annotated intent.<br> This is a tab separated list: `bundle ID \| intent \|`  |
 
 
