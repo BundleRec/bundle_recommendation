@@ -71,7 +71,7 @@ Table 4 shows brief descriptions of the data files.
 | user_session.csv| This file contains the interaction of user and session.<br> This is a tab separated list: `user ID \| session ID \| timestamp \|` <br>The user IDs are the ones used in the user_bundle.csv and user_item.csv data sets. |
 | user_bundle.csv | This file contains the interaction of user and bundle.<br> This is a tab separated list: `user ID \| bundle ID \| timestamp \|`  |
 | user_item.csv | This file contains the interaction of user and item.<br> This is a tab separated list: `user ID \| item ID \| timestamp \|`  |
-| user_item_pretrain.csv| This file contains the interaction of user and item aiming to obtain pre-trained item representations via BPRMF for model initialization .<br> This is a tab separated list: `user ID \| item ID \| timestamp \|`  |
+| user_item_pretrain.csv| This file contains the interaction of user and item aiming to obtain pre-trained item representations via BPRMF for model initialization.<br> This is a tab separated list: `user ID \| item ID \| timestamp \|`  |
 | bundle_intent.csv | This file contains bundle and its annotated intent.<br> This is a tab separated list: `bundle ID \| intent \|`  |
 
 
