@@ -16,7 +16,8 @@ A grid search in {0.0001, 0.001, 0.01} is applied to find out the optimal settin
 ### Parameter Tuning and Settings for Bundle Completion
 The dimension *d* of item and bundle representations for all methods is 20. Grid search is adopted to find out the best settings for other key parameters. In particular, learning rate ![](https://latex.codecogs.com/svg.image?\eta)  and regularization coefficient ![](https://latex.codecogs.com/svg.image?\lambda)  are searched in {0.0001, 0.001, 0.01}; the number of neighbors *K* in ItemKNN is searched in {10, 20, 30, 50}; the weight of KL divergence ![](https://latex.codecogs.com/svg.image?\alpha) in VAE is searched in {0.001, 0.01, 0.1}; and the batch size is searched in {64, 128, 256}. The optimal parameter settings are shown in Table 1. 
 
-#### Table 1: Parameter settings for bundle completion (*d=20*).
+<p align="center">Table 1: Parameter settings for bundle completion (*d=20*).</p>
+
 |  | Electronic | Clothing | Food |
 | :------: | :------: | :------: | :------: |
 | ItemKNN | ![equation](https://latex.codecogs.com/svg.image?K=10)| ![equation](https://latex.codecogs.com/svg.image?K=10) | ![equation](https://latex.codecogs.com/svg.image?K=10) |
@@ -29,8 +30,8 @@ The dimension *d* of item and bundle representations for all methods is 20. Grid
 The dimension *d* of representations is set as 20. We apply a same grid search for ![](https://latex.codecogs.com/svg.image?\eta), ![](https://latex.codecogs.com/svg.image?\lambda), ![](https://latex.codecogs.com/svg.image?K) and batch size as in bundle completion. Besides, the predictive layer *D* for AttList is searched from {20, 50, 100}; the node and message dropout rate for GCN and BGCN is searched in {0, 0.1, 0.3, 0.5}. As the training complexity for GCN and BGCN is quite high, we set the batch size as 2048 as suggested by the original paper. The optimal parameter settings are presented in Table 2. Note that the parameter settings for BGCN is the version without pre-training (i.e. ![](https://latex.codecogs.com/svg.image?BGCN_%7Bw/o%5C%20pre%7D)). 
 
 
+<p align="center">Table 2: Parameter settings for bundle ranking (*d=20*).</p>
 
-#### Table 2: Parameter settings for bundle ranking (*d=20*).
 |  | Electronic | Clothing | Food |
 | :------: | :------: | :------: | :------: |
 | ItemKNN | ![equation](https://latex.codecogs.com/svg.image?K=10)| ![equation](https://latex.codecogs.com/svg.image?K=10) | ![equation](https://latex.codecogs.com/svg.image?K=10) |
@@ -43,7 +44,8 @@ The dimension *d* of representations is set as 20. We apply a same grid search f
 ### Statistics of Datasets
 This data set consists of three domains' data collected from Mturk website. Table 3 shows the statistics of data.
 
-#### Table 3: Statistics of datasets.
+<p align="center">Table 3: Statistics of datasets.</p>
+
 
 |      | Electronic | Clothing | Food |
 |:------|:------------:|:----------:|:------:|
@@ -51,7 +53,7 @@ This data set consists of three domains' data collected from Mturk website. Tabl
 | #Items |    3499  |   4487   | 3767 |
 | #Sessions | 1145  |   1181   | 1161 |
 | #Bundles | 1750 | 1910 | 1784 |
-| #Intents | 1537 | 1590 | 1323 |
+| #Intents | 1422 | 1466 | 1156 |
 | Avg. Bundle Size | 3.52 | 3.31 | 3.58 |
 | #U-I Interactions | 6165 | 6326 | 6395 |
 | #U-B Interactions | 1753 | 1912 | 1785 |
@@ -61,18 +63,22 @@ This data set consists of three domains' data collected from Mturk website. Tabl
 ### Detailed Descriptions of Data Files
 Table 4 shows brief descriptions of the data files.
 
-#### Table 4: the brief descriptions of the data files
+<p align="center">Table 4: the brief descriptions of the data files.</p>
+
 | File Name | Descriptions |
 |-----------|--------------|
-| session_item.csv | This file contains the affiliation of session and its items. Each session has at least 2 items.<br> This is a tab separated list: `session ID \| item ID \|` <br>The session IDs are the ones used in the session_bundle.csv and user_session.csv data sets.  |
-| session_bundle.csv| This file contains the affiliation of session and detected bundles. Each session has at least 1 bundle.<br> This is a tab separated list: `session ID \| bundle ID \|` <br>The bundle IDs are the ones used in the bundle_item.csv ,user_bundle.csv and bundle_intent.csv data sets. |
-| bundle_item.csv | This file contains the affiliation of bundle and its items. Each bundle has at least 2 items.<br> This is a tab separated list: `bundle ID \| item ID \|` <br>The item IDs are the ones used in the user_item.csv and item_categories.csv data sets. |
-| item_categories.csv| This file contains item and its categories.<br> This is a tab separated list: `item ID \| categories \|` <br> The format of data in `categories` column is a list of string. |
-| user_session.csv| This file contains the interaction of user and session.<br> This is a tab separated list: `user ID \| session ID \| timestamp \|` <br>The user IDs are the ones used in the user_bundle.csv and user_item.csv data sets. |
-| user_bundle.csv | This file contains the interaction of user and bundle.<br> This is a tab separated list: `user ID \| bundle ID \| timestamp \|`  |
+| user_item_pretrain.csv| This file contains the interaction of user and item aiming to obtain pre-trained item representations via BPRMF for model initialization.<br> This is a tab separated list: `user ID \| item ID \| timestamp \|`  <br>The user IDs are the ones used in the `user_bundle.csv` and `user_item.csv` data sets. The item IDs are the ones used in the `user_item.csv`, `session_item.csv` and `item_categories.csv` data sets.|
 | user_item.csv | This file contains the interaction of user and item.<br> This is a tab separated list: `user ID \| item ID \| timestamp \|`  |
-| user_item_pretrain.csv| This file contains the interaction of user and item aiming to obtain pre-trained item representations via BPRMF for model initialization.<br> This is a tab separated list: `user ID \| item ID \| timestamp \|`  |
+| session_item.csv | This file contains the affiliation of session and its items. Each session has at least 2 items.<br> This is a tab separated list: `session ID \| item ID \|` <br>The session IDs are the ones used in the `session_bundle.csv` and `user_session.csv` data sets.  |
+| user_session.csv| This file contains the interaction of user and session.<br> This is a tab separated list: `user ID \| session ID \| timestamp \|`  |
+| session_bundle.csv| This file contains the affiliation of session and detected bundles. Each session has at least 1 bundle.<br> This is a tab separated list: `session ID \| bundle ID \|` <br>The bundle IDs are the ones used in the `bundle_item.csv` ,`user_bundle.csv` and `bundle_intent.csv` data sets. |
 | bundle_intent.csv | This file contains bundle and its annotated intent.<br> This is a tab separated list: `bundle ID \| intent \|`  |
+| bundle_item.csv | This file contains the affiliation of bundle and its items. Each bundle has at least 2 items.<br> This is a tab separated list: `bundle ID \| item ID \|` |
+| user_bundle.csv | This file contains the interaction of user and bundle.<br> This is a tab separated list: `user ID \| bundle ID \| timestamp \|`  |
+| item_categories.csv| This file contains item and its categories.<br> This is a tab separated list: `item ID \| categories \|` <br> The format of data in `categories` column is a list of string. |
+
+
+
 
 
 
