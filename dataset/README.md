@@ -1,7 +1,7 @@
-## Summary
+## Statistics of Datasets
 This data set consists of three domains' data collected from Mturk website. Table 1 shows the statistics of data.
 
-<p align="center">Table 1: Statistics of datasets.</p>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table 1: Statistics of datasets.
 
 |      | Electronic | Clothing | Food |
 |:------|:------------:|:----------:|:------:|
