@@ -14,7 +14,7 @@ bundle ID,intent
 11,chargers
 12,tablet
 13,splitters
-14,no intent
+14,external storage
 15,Power strip adopters 
 16,servers
 17,Led Light
@@ -25,7 +25,7 @@ bundle ID,intent
 22,connecting pins
 23,mobile purpuse
 24,Item 2 may be useful to charge item 6 battery
-25,no intent
+25,protecting smartphone
 26,Headsets and hardware to use it.
 27,Headphones and speakers
 28,Music player
@@ -44,12 +44,12 @@ bundle ID,intent
 41,wireless internet setup
 42,HDMI Switcher
 43,This both product are connected each other for work
-44,no intent
-45,no intent
+44,different adaptors
+45,different battery
 46,To buy a usb 
 47,Bluetooth Adapter
-48,no intent
-49,no intent
+48,different hard drive
+49,camera accessories
 50,Items for q camera to work. Along with a camera
 51,mouse
 52,Computer accessories
@@ -57,15 +57,15 @@ bundle ID,intent
 54,Samsung Galaxy Tab Accessories
 55,Tools
 56,Camera accessories
-57,no intent
-58,HDMi Cables
-59,Storage disk
-60,no intent
-61,Audio visual package
-62,Tablets and assessories
-63,Alternative products
-64,no intent
-65,no intent
+57,different external battery
+58,tablet and case
+59,HDMi Cables
+60,Storage disk
+61,external storage
+62,Audio visual package
+63,Tablets and assessories
+64,Alternative products
+65,assembling a desktop
 66,"Item2, Item3,Item4,Item5 and Item6"
 67,ethernet cables
 68,camera accessories
@@ -96,8 +96,8 @@ bundle ID,intent
 93,accessories for apple products
 94,audio and visual connections
 95,Computer starterpack
-96,no intent
-97,no intent
+96,different sd cards
+97,headphone and accessories
 98,Listening to and amplifying music 
 99,HDMI PIN
 100,Camera accesories
@@ -105,7 +105,7 @@ bundle ID,intent
 102,Computer components.
 103,laptop working
 104,Nikon D800 Camera
-105,no intent
+105,different adapters
 106,to upgrade a laptop
 107,HDMI cables
 108,Wifi streaming
@@ -113,387 +113,387 @@ bundle ID,intent
 110,computer software fits 
 111,screen protectors
 112,Microsoft Surface protection
-113,no intent
-114,no intent
-115,Protecting an iPad
-116,USB/Pendrive
-117,Item1 and Item3
-118,"car upgrade 
+113,making WiFi
+114,Protecting an iPad
+115,USB/Pendrive
+116,Item1 and Item3
+117,"car upgrade 
 radio and reverse camera"
-119,Car tech upgrades
-120,Cable connections 
-121,Cable and cable adapter
-122,Cables
-123,HDMI connectivity
-124,Car audio setup
-125,Vehicle 
-126,"buy a tablet and have it protected, with additional memory and without problems of autonomy"
-127,Audio/Music
-128,GoPro Mounts
-129,Video
-130,gopros accessories
-131,photographer bundle
-132,Camera and Photography
-133,Mac Displayport Adapter
-134,assembling a photo studio
-135,for use with a camera
-136,ADAPTER
-137,Complimentary products
-138,Gaming Computer assembly
-139,Assembling a desktop
-140,all computer accessories 
-141,The intent would be to upgrade Personal Computer(PC) or utilizing PC more effectively. 
-142,assembling coputer
-143,Building a gaming computer 
-144,laptop
-145,Media / technology 
-146,TV and support
-147,Camera accessories
-148,electronic using
-149,Camera
-150,every thing we can did in one package
-151,Computer accessories
-152,no intent
-153,no intent
-154,tv mounting
-155,HDMI cables with adaptors
-156,Connectivity to laptop
-157,To protect or filter UV rays
-158,security camera
-159,ACCESSORIES AND PROTECTIVE COVER FOR LAPTOP
-160,mobile accessories
-161,ASUS Tablet
-162,ASUS TF300 replacement
-163,Stability
-164,Dslr camera accessories 
-165,Professional Filming
-166,equipment protection
-167,Building a desktop
-168,no intent
-169,camera
-170,External devices required for PC
-171,no intent
-172,no intent
-173,Assembling desktop
-174,external memory
-175,Camera mounting pack
-176,Macbook protection (impact/dust)
-177,MacBook
-178,Camera accessories
-179,computer accessories 
-180,Cable and strap
-181,Camera storage
-182,SAVE PHOTOS ITEM 3 AND 4
-183,Cam accessories
-184,to build a gamic pc
-185,no intent
-186,no intent
-187,Thinkpad accessories
-188,tablet
-189,RAMs
-190,PC Cables
-191,system parts
-192,Computer accessories 
-193,Wifi setup
-194,Wifi connection with a computer to log on to it with
-195,Computer assembly
-196,Receiver 
-197,Audio Player
-198,"1,3,5 complementary products"
-199,Camera accessories 
-200,Ipad essential
-201,smart technology
-202,Computer usage
-203,sony hx300 starter
-204,Traveling and taking photos
-205,no intent
-206,no intent
-207,ALL THE ITEMS ARE RELEVANT SO THESE ITEMS CAN MAKE REASONABLE BUNDLES.
-208,camera accessories 
-209,Receptor and subwoofer
-210,good quality  of sound
-211,"DVD writer and cd storage, accessories"
-212,Computer Spares
-213,To build a PC
-214,Desktop CPU Components
-215,IPod Parts & Tools 
-216,Tomtom accessories
-217,Protective cases for LG G Pad Tablet
-218,no intent
-219,Gamer who requires a decent monitor and high-speed WiFi to play online
-220,i pod accessories 
-221,Ipod and its screen protector and case
-222,Accessories for pioneer recevier
-223,Micro usb cables
-224,Audio Listening.
-225,buying a laptop
-226,Lenovo Laptop and accesories
-227,desktop computer assembly
-228,tablet kit
-229,external harddisk and cable
-230,assembling a PC
-231,Computer Components
-232,USB cable
-233,Antenna set
-234,Blu rayer player and cable
-235,Unsure
-236,mounting TV 
-237,Laptop related
-238,Music related
-239,usb
-240,complementary
-241,These are the computer accessories
-242,this bundle is perfect with and hdmi to make a connection with the projector and the wireless keyboard must like make things easier without having to get infront of the computer and projector.
-243,Assembling a Computer
-244,assembling a desktop
-245,cables and chargers
-246,To build a pc
-247,keyboard
-248,protecting laptop
-249,GoPro Related
-250,Gopro Accessories
-251,more applicable
-252,Phone case/compartment/holder
-253,Photography
-254,Laptop Accessories
-255,The user is intending to store work / videos / photos on an external hard drive to make these files portable 
-256,gopro starter
-257,Nikon camera accessories
-258,nikon starter
-259,camera accessories 
-260,ipod accessories
-261,Go Pro Setup
-262,no intent
-263,camera accessories
-264,assemble a desktop
-265,usb speaker alternative product
-266,usb cable
-267,High scale photography equipment
-268,case for tablet
-269,both cases
-270,This is a camera bundle.
-271,Camera carrying
-272,Nexus 7 Tablet Accessories
-273,nice
-274,Setting up an HDMI connection
-275,"audio
+118,Car tech upgrades
+119,Cable connections 
+120,Cable and cable adapter
+121,Cables
+122,HDMI connectivity
+123,Car audio setup
+124,Vehicle 
+125,"buy a tablet and have it protected, with additional memory and without problems of autonomy"
+126,Audio/Music
+127,GoPro Mounts
+128,Video
+129,gopros accessories
+130,photographer bundle
+131,Camera and Photography
+132,Mac Displayport Adapter
+133,assembling a photo studio
+134,for use with a camera
+135,ADAPTER
+136,Complimentary products
+137,Gaming Computer assembly
+138,Assembling a desktop
+139,all computer accessories 
+140,The intent would be to upgrade Personal Computer(PC) or utilizing PC more effectively. 
+141,assembling coputer
+142,Building a gaming computer 
+143,laptop
+144,Media / technology 
+145,TV and support
+146,Camera accessories
+147,electronic using
+148,Camera
+149,every thing we can did in one package
+150,Computer accessories
+151,different recorders
+152,computer accessories
+153,tv mounting
+154,HDMI cables with adaptors
+155,Connectivity to laptop
+156,To protect or filter UV rays
+157,security camera
+158,ACCESSORIES AND PROTECTIVE COVER FOR LAPTOP
+159,mobile accessories
+160,ASUS Tablet
+161,ASUS TF300 replacement
+162,Stability
+163,Dslr camera accessories 
+164,Professional Filming
+165,equipment protection
+166,Building a desktop
+167,camera and accessories
+168,camera
+169,External devices required for PC
+170,ipad cases
+171,different gps holder
+172,Assembling desktop
+173,external memory
+174,Camera mounting pack
+175,Macbook protection (impact/dust)
+176,MacBook
+177,Camera accessories
+178,computer accessories 
+179,Cable and strap
+180,Camera storage
+181,SAVE PHOTOS ITEM 3 AND 4
+182,Cam accessories
+183,to build a gamic pc
+184,different keyboards
+185,keyboards and accessories
+186,Thinkpad accessories
+187,tablet
+188,RAMs
+189,PC Cables
+190,system parts
+191,Computer accessories 
+192,Wifi setup
+193,Wifi connection with a computer to log on to it with
+194,Computer assembly
+195,Receiver 
+196,Audio Player
+197,"1,3,5 complementary products"
+198,Camera accessories 
+199,Ipad essential
+200,smart technology
+201,Computer usage
+202,sony hx300 starter
+203,Traveling and taking photos
+204,protecting tablet
+205,ALL THE ITEMS ARE RELEVANT SO THESE ITEMS CAN MAKE REASONABLE BUNDLES.
+206,camera accessories 
+207,Receptor and subwoofer
+208,good quality  of sound
+209,"DVD writer and cd storage, accessories"
+210,Computer Spares
+211,To build a PC
+212,Desktop CPU Components
+213,IPod Parts & Tools 
+214,Tomtom accessories
+215,Protective cases for LG G Pad Tablet
+216,different adaptors
+217,Gamer who requires a decent monitor and high-speed WiFi to play online
+218,i pod accessories 
+219,Ipod and its screen protector and case
+220,Accessories for pioneer recevier
+221,Micro usb cables
+222,Audio Listening.
+223,buying a laptop
+224,Lenovo Laptop and accesories
+225,desktop computer assembly
+226,tablet kit
+227,external harddisk and cable
+228,assembling a PC
+229,Computer Components
+230,USB cable
+231,Antenna set
+232,Blu rayer player and cable
+233,Unsure
+234,mounting TV 
+235,Laptop related
+236,Music related
+237,usb
+238,complementary
+239,These are the computer accessories
+240,this bundle is perfect with and hdmi to make a connection with the projector and the wireless keyboard must like make things easier without having to get infront of the computer and projector.
+241,Assembling a Computer
+242,assembling a desktop
+243,cables and chargers
+244,To build a pc
+245,keyboard
+246,protecting laptop
+247,GoPro Related
+248,Gopro Accessories
+249,more applicable
+250,Phone case/compartment/holder
+251,Photography
+252,Laptop Accessories
+253,The user is intending to store work / videos / photos on an external hard drive to make these files portable 
+254,gopro starter
+255,Nikon camera accessories
+256,nikon starter
+257,camera accessories 
+258,ipod accessories
+259,Go Pro Setup
+260,external storage
+261,different headphones
+262,camera accessories
+263,assemble a desktop
+264,usb speaker alternative product
+265,usb cable
+266,High scale photography equipment
+267,case for tablet
+268,both cases
+269,This is a camera bundle.
+270,Camera carrying
+271,Nexus 7 Tablet Accessories
+272,nice
+273,Setting up an HDMI connection
+274,"audio
 "
-276,camcorder and accessories
-277,HANDSFREE HEAD SET
-278,BRAND
-279,Battery accessories
-280,Recording bundle
-281,no intent
-282,no intent
-283,ASSEMBLING LOGITECH COMPUTER
-284,Flash Photography
-285,Camera ans accessories 
-286,DSLR related
-287,camera accessories
-288,electronic sgood
-289,Go pro camera and its gadgets
-290,no intent
-291,no intent
-292,Sound and Speaker
-293,Battery
-294,Adapters
-295,technical accessories
-296,no intent
-297,ALTERNATIVE PRODUCTS
-298,Tablet
-299,Apple iPad
-300,mouse and pads
-301,Hand Radio Accessories
-302,Antenna
-303,complete car speaker system setup
-304,assembling a speaker system
-305,Photography Accessories
-306,Hobby
-307,assemble desktop
-308,home computer
-309,keyboard
-310,HDMI cord organization
-311,Setup a speaker
-312,iPad accessories 
-313,Photo
-314,Camera accessories
-315,filters and holder
-316,Internet Connection
-317,Laptop Accessories
-318,MacBook case
-319,Data storage units
-320,port
-321,tv connectivity
-322,HDMI ADAPTER CONVERTER 
-323,storage
-324,Camera Accessories
-325,Camera Accesories
-326,USB Drives
-327,Computer Components
-328,for pc s
-329,Electrical components for TV system.
-330,complementary products
-331,wi-fi
-332,apple ipad & apple tv
-333,extender with hdmi to dvi cable
-334,audio
-335,Protecting audio amplifier 
-336,Car sound system
-337,Speaker Equipment
-338,no intent
-339,no intent
-340,no intent
-341,Connecting electronic gadgets
-342,battery support
-343,Music Players
-344,all connection with laptop and phone
-345,Hearing Accesories
-346,Speaker parts
-347,Tablet and its acceasories
-348,GoPro accessories
-349,Protecting SD card
-350,Headphones
-351,CAR AUDIO
-352,Computer accessories
-353,camera and accessories
-354,wireless audio receiver and sound bar for Home audio
-355,Bluetooth compatibility
-356,Speaker Cable
-357,Desktop external drives go with connections
-358,Photography equipment
-359,Accessories for HP TOUCHPAD
-360,audio equipment 
-361,touch pad
-362,Projector bundle
-363,computer accessories
-364,Protector/Cover
-365,Keyboard
-366,Bag
-367,Photography / Videography
-368,listening music from new laptop
-369,"To watch TV, and since Apple TV Requires HDMI, then it makes sense"
-370,Photography
-371,Compatible tablet and accessories
-372,Tab and its accessory
-373,Audio recorder
-374,Connecting BNC cables
-375,Electronic items
-376,Ipad protection gear
-377,iPad protection
-378,Honeywell Products
-379,Computers
-380,Security
-381,Connecting to a computer
-382,Protecting apple laptop
-383,Case for macbook
-384,Television Accessories
-385,Making a computer
-386,Networking (ethernet)
-387,SD Card reader
-388,To purchase devices that receive tv signals.
-389,cases for tablets
-390,ipad protection
-391,TF700T Accessories
-392,For Wall Mount LED TV
-393,All the items are co-related
-394,no intent
-395,they are all parts for computers
-396,Desktop asembling
-397,Photographer Kit
-398,mobile device protection and cleaning
-399,screen protector for tab
-400,Create high quality picture
-401,camera accessories
-402,adapters
-403,photography equipment
-404,CPU Assemble parts
-405,Audio video TV accessories
-406,Desktop Computer
-407,Both are front and back protective cover for the IPAD
-408,no intent
-409,laptop and laptop case
-410,video cables
-411,Traveling with computer
-412,CDs and CDs cases
-413,assembling a desktop
-414,Camera and accessories
-415,"videography, editing and production"
-416,Both items are complementary to be used for a television installation.
-417,"sony camcorder and case, charger"
-418,apple ipad and accessories
-419,no intent
-420,Iphone utility tool
-421,Useful items for a Camera
-422,memory card
-423,RADAR Detector Kit
-424,Car mounting equipment
-425,no intent
-426,HDMI Switcher
-427,we can find everything in the same package
-428,Camera and accessories
-429,tablet cases
-430,These items are complementary. They are individual components that are used to build a computer.
-431,Different types of connector cables
-432,Smart Monitor Bundle
-433,no intent
-434,Go Pro bundle
-435,Camera lens bundle
-436,Home surveillance
-437,security
-438,To build / repair a pc
-439,Male-female socket terminals 
-440,DVD drive for laptop
-441,Memory
-442,Camera parts
-443,Computer and Accessories
-444,Speaker
-445,iPad and protective covers
-446,Nook Protection
-447,"MacBook Pro 13.3"" with Retina Display A1502 and A1425"
-448,Computer Accessories
-449,Music accessories 1
-450,power outlet
-451,amplifiers
-452,Headphones
-453,tablet accessories
-454,Acer tablet with protective screen
-455,Camera lenses
-456,USB devices
-457,Camera
-458,vechile tracking and camera recording devices
-459,Cable
-460,Desktop set up
-461,Car AV system
-462,no intent
-463,Peripherals for a GPS system
-464,you may need adapter in some countries
-465,Items
-466,Computer
-467,Misc
-468,Sound box
-469,Tuning noise controller
-470,Car radio components
-471,tablet cover
-472,carring case for notepad.ipad etc
-473,phone touchscreen protectors
-474,UPS Power
-475,Computer accessories and assembly
-476,Camera
-477,it is solid device 
-478,To assemble a mini-computer (raspberry pi) as well as having accessories to go with it for computer use
-479,Raspberry Pi
-480,portable audio listening devices
-481,Home Theater
-482,soundbar
-483,2 different types of headphones
-484,no intent
-485,no intent
+275,camcorder and accessories
+276,HANDSFREE HEAD SET
+277,BRAND
+278,Battery accessories
+279,Recording bundle
+280,different bags
+281,camera accessories
+282,ASSEMBLING LOGITECH COMPUTER
+283,Flash Photography
+284,Camera ans accessories 
+285,DSLR related
+286,camera accessories
+287,electronic sgood
+288,Go pro camera and its gadgets
+289,protecting laptop
+290,Sound and Speaker
+291,Battery
+292,Adapters
+293,technical accessories
+294,watching tv
+295,different keyboards
+296,ALTERNATIVE PRODUCTS
+297,Tablet
+298,Apple iPad
+299,mouse and pads
+300,Hand Radio Accessories
+301,Antenna
+302,complete car speaker system setup
+303,assembling a speaker system
+304,Photography Accessories
+305,Hobby
+306,assemble desktop
+307,home computer
+308,keyboard
+309,HDMI cord organization
+310,Setup a speaker
+311,iPad accessories 
+312,Photo
+313,Camera accessories
+314,filters and holder
+315,Internet Connection
+316,Laptop Accessories
+317,MacBook case
+318,Data storage units
+319,port
+320,tv connectivity
+321,HDMI ADAPTER CONVERTER 
+322,storage
+323,Camera Accessories
+324,Camera Accesories
+325,USB Drives
+326,Computer Components
+327,for pc s
+328,Electrical components for TV system.
+329,complementary products
+330,wi-fi
+331,apple ipad & apple tv
+332,extender with hdmi to dvi cable
+333,audio
+334,Protecting audio amplifier 
+335,Car sound system
+336,Speaker Equipment
+337,different power supply
+338,build WiFi
+339,tablet and accessories
+340,Connecting electronic gadgets
+341,battery support
+342,Music Players
+343,all connection with laptop and phone
+344,Hearing Accesories
+345,Speaker parts
+346,Tablet and its acceasories
+347,GoPro accessories
+348,Protecting SD card
+349,Headphones
+350,CAR AUDIO
+351,Computer accessories
+352,camera and accessories
+353,wireless audio receiver and sound bar for Home audio
+354,Bluetooth compatibility
+355,Speaker Cable
+356,Desktop external drives go with connections
+357,Photography equipment
+358,Accessories for HP TOUCHPAD
+359,audio equipment 
+360,touch pad
+361,Projector bundle
+362,computer accessories
+363,Protector/Cover
+364,Keyboard
+365,Bag
+366,Photography / Videography
+367,listening music from new laptop
+368,"To watch TV, and since Apple TV Requires HDMI, then it makes sense"
+369,Photography
+370,Compatible tablet and accessories
+371,Tab and its accessory
+372,Audio recorder
+373,Connecting BNC cables
+374,Electronic items
+375,Ipad protection gear
+376,iPad protection
+377,Honeywell Products
+378,Computers
+379,Security
+380,Connecting to a computer
+381,Protecting apple laptop
+382,Case for macbook
+383,Television Accessories
+384,Making a computer
+385,Networking (ethernet)
+386,SD Card reader
+387,To purchase devices that receive tv signals.
+388,cases for tablets
+389,ipad protection
+390,TF700T Accessories
+391,For Wall Mount LED TV
+392,All the items are co-related
+393,camera and accessories
+394,they are all parts for computers
+395,Desktop asembling
+396,Photographer Kit
+397,mobile device protection and cleaning
+398,screen protector for tab
+399,Create high quality picture
+400,camera accessories
+401,adapters
+402,photography equipment
+403,CPU Assemble parts
+404,Audio video TV accessories
+405,Desktop Computer
+406,Both are front and back protective cover for the IPAD
+407,camera accessories
+408,laptop and laptop case
+409,video cables
+410,Traveling with computer
+411,CDs and CDs cases
+412,assembling a desktop
+413,Camera and accessories
+414,"videography, editing and production"
+415,Both items are complementary to be used for a television installation.
+416,"sony camcorder and case, charger"
+417,apple ipad and accessories
+418,making speakers
+419,Iphone utility tool
+420,Useful items for a Camera
+421,memory card
+422,RADAR Detector Kit
+423,Car mounting equipment
+424,gps and accessories
+425,camera cases
+426,camera and accessories
+427,HDMI Switcher
+428,we can find everything in the same package
+429,Camera and accessories
+430,tablet cases
+431,These items are complementary. They are individual components that are used to build a computer.
+432,Different types of connector cables
+433,Smart Monitor Bundle
+434,accessories
+435,Go Pro bundle
+436,Camera lens bundle
+437,Home surveillance
+438,security
+439,To build / repair a pc
+440,Male-female socket terminals 
+441,DVD drive for laptop
+442,Memory
+443,Camera parts
+444,Computer and Accessories
+445,Speaker
+446,iPad and protective covers
+447,Nook Protection
+448,"MacBook Pro 13.3"" with Retina Display A1502 and A1425"
+449,Computer Accessories
+450,Music accessories 1
+451,power outlet
+452,amplifiers
+453,Headphones
+454,tablet accessories
+455,Acer tablet with protective screen
+456,Camera lenses
+457,USB devices
+458,Camera
+459,vechile tracking and camera recording devices
+460,Cable
+461,Desktop set up
+462,Car AV system
+463,accessories for camera
+464,Peripherals for a GPS system
+465,you may need adapter in some countries
+466,Items
+467,Computer
+468,Misc
+469,Sound box
+470,Tuning noise controller
+471,Car radio components
+472,tablet cover
+473,carring case for notepad.ipad etc
+474,phone touchscreen protectors
+475,UPS Power
+476,Computer accessories and assembly
+477,Camera
+478,it is solid device 
+479,To assemble a mini-computer (raspberry pi) as well as having accessories to go with it for computer use
+480,Raspberry Pi
+481,portable audio listening devices
+482,Home Theater
+483,soundbar
+484,2 different types of headphones
+485,assembling a desktop
 486,for ipad protection
 487,Audio system
 488,Setting up a TV or Monitor
 489,computer
 490,high technolgy upgrade
-491,no intent
+491,camera and accessories
 492,Maintenance for camara
 493,Tie HDTV antenna cables
 494,photography
@@ -505,20 +505,20 @@ radio and reverse camera"
 500,Barnes & Noble NOOK
 501,car stereo system
 502,Radio kits
-503,no intent
+503,different cables
 504,laptop protection
 505,PC accesories
 506,GoPro 
 507,Assembling a vehicle audio
 508,car stereos
 509,On the go electronics
-510,no intent
+510,protecting tablets
 511,tablet protection
 512,Photography
 513,streaming media internet connection
 514,Camera and accessories
 515,Battery and charger
-516,no intent
+516,camera and accessories
 517,Battery
 518,cables
 519,Connecting the 5.1 Audio System to some Receiver or Television
@@ -534,281 +534,281 @@ radio and reverse camera"
 529,Computer accessories
 530,External HD Bundle
 531,Cases
-532,no intent
-533,no intent
-534,Camera assembling
-535,CAMERA/CAMECORDER SAFETY EQUIPMENTS
-536,setting up a network
-537,for audio video setup
-538,protecting samsung galaxy tab 3
-539,Phone Accessories
-540,no intent
-541,Related to same user
-542,All of these items are car related and can be used in a car at the same time.
-543,Internet connection
-544,Building a computer unit
-545,laptop or desktop computer accesories 
-546,Galaxy note with Cover and SD Card will be a perfect package
-547,Projector and Projector lamp
-548,Cables for video I/O
-549,"2,3,5,6 are complementary products 1,4,7 are alternative products"
-550,Car accessories/parts
-551,Consuming media in car
-552,home cinéma installation
-553,Protective cases for Apple ipad
-554,tablet with protection and bag
-555,car electronics
-556,external storage
-557,Photography Equipment
-558,mobile and  i-pad protector
-559,Camera Lighting
-560,LCD
-561,screen protector
-562,Professional Camera and Accessories
-563,Using a Blu Ray player
-564,Blueray player setup
-565,Camera
-566,home networking
-567,Useful for playing an e-sports or video games
-568,Car accessories
-569,Computing
-570,computer hardware
-571,no intent
-572,TV accessories  
-573,Desktop Computer
-574,drive
-575,computer hardwares
-576,nas and hard drive
-577,To take photographs 
-578,camera accessories
-579,Sirius reception
-580,Create electrical fuse box
-581,Audio Converters
-582,Electrical Hookup Accessories
-583,no intent
-584,no intent
-585,Windshield 
-586,Audio accessories
-587, Audio Cable
-588,digital camera
-589,Memory Card
-590,CAMERA ACCESSORIES
-591,flash
-592,lens
-593,Photography
-594,micro storage
-595,SD cards
-596,high quality
-597,no intent
-598,no intent
-599,Routers
-600,"To protect an ipad and change covers periodically.
+532,tablets and accessories
+533,Camera assembling
+534,CAMERA/CAMECORDER SAFETY EQUIPMENTS
+535,setting up a network
+536,for audio video setup
+537,protecting samsung galaxy tab 3
+538,Phone Accessories
+539,different tablets
+540,Related to same user
+541,All of these items are car related and can be used in a car at the same time.
+542,Internet connection
+543,Building a computer unit
+544,laptop or desktop computer accesories 
+545,Galaxy note with Cover and SD Card will be a perfect package
+546,Projector and Projector lamp
+547,Cables for video I/O
+548,"2,3,5,6 are complementary products 1,4,7 are alternative products"
+549,Car accessories/parts
+550,Consuming media in car
+551,home cinéma installation
+552,Protective cases for Apple ipad
+553,tablet with protection and bag
+554,car electronics
+555,external storage
+556,Photography Equipment
+557,mobile and  i-pad protector
+558,Camera Lighting
+559,LCD
+560,screen protector
+561,Professional Camera and Accessories
+562,Using a Blu Ray player
+563,Blueray player setup
+564,Camera
+565,home networking
+566,Useful for playing an e-sports or video games
+567,Car accessories
+568,Computing
+569,computer hardware
+570,watching TV
+571,TV accessories  
+572,Desktop Computer
+573,drive
+574,computer hardwares
+575,nas and hard drive
+576,To take photographs 
+577,camera accessories
+578,Sirius reception
+579,Create electrical fuse box
+580,Audio Converters
+581,Electrical Hookup Accessories
+582,tablet and accessories
+583,Windshield 
+584,Audio accessories
+585, Audio Cable
+586,digital camera
+587,Memory Card
+588,CAMERA ACCESSORIES
+589,flash
+590,lens
+591,Photography
+592,micro storage
+593,SD cards
+594,high quality
+595,different cables
+596,Routers
+597,"To protect an ipad and change covers periodically.
 "
-601,Digital camera
-602,Battery Charger for the Video Camera
-603,Storage Device
-604,protecting ipad
-605,sound systems for all kind of gadgets
-606,Technology required for video output
-607,Power Strips
-608,Movie Night
-609,Desktop computer accessories
-610,Audio/music tech
-611,Solid state drives
-612,Hard drives and SSD for PC
-613,They are all screen protectors
-614,Screen protection 
-615,Computer related
-616,Protecting Digital Camera & Saving Images
-617,Operating Laptop via Wireless Mouse
-618,Connecting DVR to Screen
-619,Laptop bundle
-620,computer cables and accessories
-621,GoPro HERO3+ 
-622,Phone extensions
-623,use speaker farthest from the device
-624,car audio accessories
-625,All product are related to each other for functionalityty
-626,Video Projector Set
-627,no intent
-628,no intent
-629,Data storage
-630,Streaming
-631,"Listening to music, seemingly in a higher quality manner than normal earphones/stereo listening."
-632,audio equipment
-633,Photo equipment
-634,Ipod
-635,Radio with lightning dock
-636,Laptop and protection of the device
-637,Hard Drive Enclosure
-638,"1,3,5 complementary products "
-639,Media cables
-640,Camera accessories
-641,cables
-642,camera
-643,wifi
-644,power
-645,Computer internal components
-646,no intent
-647,computer accessories
-648,Camera and accessories
-649,home streaming
-650,Tablet with Protective Cover
-651,no intent
-652,no intent
-653,Photography
-654,screen protectors
-655,laptop Technology
-656,no intent
-657,PC building
-658,desktop computer assembly or repair
-659,window fan
-660,Item 3 could be used in conjunction with item 4
-661,Camera accesories
-662,Laptop and accesories
-663,gaming computer assembly
-664,building car audio system
-665,Cables
-666,Desktop accesories
-667,listening audio
-668,trying out earbuds
-669,Installing a router
-670,cable
-671,The user is intending to stream movies from their laptop to another screen / TV as well as installing a basic TV antenna service 
-672,monitor to pc 
-673,Tablet and leather case for said tablet.
-674,Cable modem
-675,Cisco Routers
-676,Buy a new reflex with several accessories
-677,Dslr Camera and its accessories 
-678,no intent
-679,building a home desktop with internet
-680,camera accessories
-681,Data storage and communication 
-682,Security System
-683,high brand
-684,usb cable
-685,Apple product accessories
-686,expand iPad functionalities
-687,running siren even while power goes off
-688,Security system installation 
-689,One backpack they all put in the back.
-690,camera tools
-691,headphones
-692,Speakers
-693,hard drive
-694,Computer parts
-695,camera
-696,Computer/laptop
-697,playing music 
-698,"1,2,3 an 5 is same "
-699,keyboard and connector
-700,portable adopter
-701,Antenna
-702,Cable
-703,Monitor and accesories
-704,Dual monitors with a stand and dual graphics cards.
-705,useful accessories
-706,internet connectivity
-707,charger
-708,pc skin
-709,adapter
-710,Cable for the Adapter
-711,USB Cable
-712,Photography
-713,Small computers
-714,no intent
-715,Assembling PC Desktop
-716,Cooling fans for CPU
-717,Studio Lightning
-718,PC and phone peripherals
-719,desktop hard disk
-720,pc building
-721,computer cases
-722,headphone and speakers
-723,traveling with electronics
-724,electronic cables
-725,av equipment
-726,tablet and laptop backpack
-727,"all electronics
+598,Digital camera
+599,Battery Charger for the Video Camera
+600,Storage Device
+601,protecting ipad
+602,sound systems for all kind of gadgets
+603,Technology required for video output
+604,Power Strips
+605,Movie Night
+606,Desktop computer accessories
+607,Audio/music tech
+608,Solid state drives
+609,Hard drives and SSD for PC
+610,They are all screen protectors
+611,Screen protection 
+612,Computer related
+613,Protecting Digital Camera & Saving Images
+614,Operating Laptop via Wireless Mouse
+615,Connecting DVR to Screen
+616,Laptop bundle
+617,computer cables and accessories
+618,GoPro HERO3+ 
+619,Phone extensions
+620,use speaker farthest from the device
+621,car audio accessories
+622,All product are related to each other for functionalityty
+623,Video Projector Set
+624,camera accessories
+625,Data storage
+626,Streaming
+627,"Listening to music, seemingly in a higher quality manner than normal earphones/stereo listening."
+628,audio equipment
+629,Photo equipment
+630,Ipod
+631,Radio with lightning dock
+632,Laptop and protection of the device
+633,Hard Drive Enclosure
+634,"1,3,5 complementary products "
+635,Media cables
+636,Camera accessories
+637,cables
+638,camera
+639,wifi
+640,power
+641,Computer internal components
+642,protecting smartphone
+643,computer accessories
+644,Camera and accessories
+645,home streaming
+646,Tablet with Protective Cover
+647,external storage
+648,case for ipod
+649,case for tablet
+650,Photography
+651,screen protectors
+652,laptop Technology
+653,making home theater system
+654,PC building
+655,desktop computer assembly or repair
+656,window fan
+657,Item 3 could be used in conjunction with item 4
+658,Camera accesories
+659,Laptop and accesories
+660,gaming computer assembly
+661,building car audio system
+662,Cables
+663,Desktop accesories
+664,listening audio
+665,trying out earbuds
+666,Installing a router
+667,cable
+668,The user is intending to stream movies from their laptop to another screen / TV as well as installing a basic TV antenna service 
+669,monitor to pc 
+670,Tablet and leather case for said tablet.
+671,Cable modem
+672,Cisco Routers
+673,Buy a new reflex with several accessories
+674,Dslr Camera and its accessories 
+675,listening to music
+676,making speaker
+677,building a home desktop with internet
+678,camera accessories
+679,Data storage and communication 
+680,Security System
+681,high brand
+682,usb cable
+683,Apple product accessories
+684,expand iPad functionalities
+685,running siren even while power goes off
+686,Security system installation 
+687,One backpack they all put in the back.
+688,camera tools
+689,headphones
+690,Speakers
+691,hard drive
+692,Computer parts
+693,camera
+694,Computer/laptop
+695,playing music 
+696,"1,2,3 an 5 is same "
+697,keyboard and connector
+698,portable adopter
+699,Antenna
+700,Cable
+701,Monitor and accesories
+702,Dual monitors with a stand and dual graphics cards.
+703,useful accessories
+704,internet connectivity
+705,charger
+706,pc skin
+707,adapter
+708,Cable for the Adapter
+709,USB Cable
+710,Photography
+711,Small computers
+712,speaker accessories
+713,Assembling PC Desktop
+714,Cooling fans for CPU
+715,Studio Lightning
+716,PC and phone peripherals
+717,desktop hard disk
+718,pc building
+719,computer cases
+720,headphone and speakers
+721,traveling with electronics
+722,electronic cables
+723,av equipment
+724,tablet and laptop backpack
+725,"all electronics
 "
-728,Connecting via USB port
-729,camera gadgets
-730,For flash photography
-731,2
-732,Protecting ipad
-733,MOUSE
-734,adapter caver
-735,Computer Accessories - assembling desktop
-736,Build  a PC
-737,Battery and Charger
-738,Using these items to perform DJ duties
-739,watching a movie/tv
-740,listening to music
-741,Monitors Set
-742,Monitors
-743,apple devices connection and charging
-744,Wireless and internet product installation
-745,SET FOR LIVINGROOM
-746,no intent
-747,no intent
-748,Hdmi connector and hdmi cable we can use both at the time of use
-749,Tablet protection
-750,no intent
-751,no intent
-752,Samsung Galaxy
-753,Audio Interface
-754,no intent
-755,no intent
-756,The product and the case
-757,They are buying hardware for a sound card adapter 
-758,Creating a Home Studio
-759,Dell laptop 
-760,items found in car
-761,internet tv
-762,pc accessories
-763,CD disc spindle
-764,Assembling a Audio system
-765,Instruments used in for sound improvement
-766,Monster cable power surge protection
-767,pc test
-768,Computer setup
-769,Computer Fix / Repair 
-770,Computer with HDMI
-771,Upgrading a Laptop
-772,Protecting Iphone and Mac
-773,upgrading Macbook Pro 13.3
-774,cpu components
-775,audio accessories
-776,Fan related
-777,cable
-778,Mobile phone accessories
-779,ITEM4 AND ITEM9 ARE FOR ASSEMBLING UNIT
-780,Recording your voice
-781,Assembling a Raspberry Pi
-782,computer accessories
-783,Hard Drive
-784,WIRELESS PRODUCT
-785,Car accesories 
-786,Phone Accessories 
-787, assembling desktop
-788,Parts to upgrade or start building a desktop computer 
-789,Photography
-790,Camera
-791,no intent
-792,Key board
-793,All of these things will allow the buyer to be more efficient in taking pictures as well as uploading them to a computer or CD. 
-794,no intent
-795,Media Storage
-796,Car equipments 
-797,Bluetooth devices
-798,much likeable one
-799,no intent
-800,Car speaker system and multimedia setup
-801,alternatives to connect a computer to a HDTV
-802,accessories for a MacBook Air
-803,adapters
-804,no intent
+726,Connecting via USB port
+727,camera gadgets
+728,For flash photography
+729,2
+730,Protecting ipad
+731,MOUSE
+732,adapter caver
+733,Computer Accessories - assembling desktop
+734,Build  a PC
+735,Battery and Charger
+736,Using these items to perform DJ duties
+737,watching a movie/tv
+738,listening to music
+739,Monitors Set
+740,Monitors
+741,apple devices connection and charging
+742,Wireless and internet product installation
+743,SET FOR LIVINGROOM
+744,camera and accessories
+745,Hdmi connector and hdmi cable we can use both at the time of use
+746,Tablet protection
+747,build WiFi
+748,build WiFi
+749,different switch
+750,external storage
+751,Samsung Galaxy
+752,Audio Interface
+753,different tablets
+754,The product and the case
+755,They are buying hardware for a sound card adapter 
+756,Creating a Home Studio
+757,Dell laptop 
+758,items found in car
+759,internet tv
+760,pc accessories
+761,CD disc spindle
+762,Assembling a Audio system
+763,Instruments used in for sound improvement
+764,Monster cable power surge protection
+765,pc test
+766,Computer setup
+767,Computer Fix / Repair 
+768,Computer with HDMI
+769,Upgrading a Laptop
+770,Protecting Iphone and Mac
+771,upgrading Macbook Pro 13.3
+772,cpu components
+773,audio accessories
+774,Fan related
+775,cable
+776,Mobile phone accessories
+777,ITEM4 AND ITEM9 ARE FOR ASSEMBLING UNIT
+778,Recording your voice
+779,Assembling a Raspberry Pi
+780,computer accessories
+781,Hard Drive
+782,WIRELESS PRODUCT
+783,Car accesories 
+784,Phone Accessories 
+785, assembling desktop
+786,Parts to upgrade or start building a desktop computer 
+787,Photography
+788,Camera
+789,watching tv
+790,Key board
+791,All of these things will allow the buyer to be more efficient in taking pictures as well as uploading them to a computer or CD. 
+792,camera and accessories
+793,camera and accessories
+794,Media Storage
+795,Car equipments 
+796,Bluetooth devices
+797,much likeable one
+798,keyboards
+799,Car speaker system and multimedia setup
+800,alternatives to connect a computer to a HDTV
+801,accessories for a MacBook Air
+802,adapters
+803,different power supply
+804,different power supply
 805,they are all electronic items. thank you
 806,Camera and its accessories 
 807,Electronics
@@ -821,50 +821,50 @@ radio and reverse camera"
 814,laptop and tech bundle.
 815,for video call 
 816,Parts of a computer 
-817,no intent
+817,different accessories
 818,camera equiptment
-819,no intent
-820,no intent
-821,no intent
-822,Digital Photo Frame + USB for photos
-823,USB stick 
-824,Unsure
-825,accident protection on a pc
-826,Camera cards
-827,"1,2,5 are complementary products"
-828,connector
-829,Laptop user
-830,BT adapter
-831,Storing memory for you computer devices
-832,drives
-833,power supply
-834,pc build
-835,Streaming
-836,Net repair kit
-837,Camera studio bundle
-838,Laptop accessories
-839,Accessories for Nikon Camera
-840,no intent
-841,to listen quality audio and stream internet 
-842,no intent
-843,no intent
-844,no intent
-845,Photography Accessories
-846,"Had a bug here, lost 45+ minutes, i'm so angry with ur code: \n https://drive.google.com/file/d/1sIY3Pk2UOg2H1BDGYqZWJOiiIUlWh8HF/view?usp=sharing"
-847,Tablet and accesories
-848,Cases
-849,Memory banks
-850,Wiring ethernet cable and hiding the wires so you do not trip over them. Likely to be used in an office setting.
-851,types of ethernet cabels or pins
-852,no intent
-853,no intent
+819,camera accessories
+820,camera accessories
+821,Digital Photo Frame + USB for photos
+822,USB stick 
+823,Unsure
+824,accident protection on a pc
+825,Camera cards
+826,"1,2,5 are complementary products"
+827,connector
+828,Laptop user
+829,BT adapter
+830,Storing memory for you computer devices
+831,drives
+832,power supply
+833,pc build
+834,Streaming
+835,Net repair kit
+836,Camera studio bundle
+837,Laptop accessories
+838,Accessories for Nikon Camera
+839,assembling a desktop
+840,to listen quality audio and stream internet 
+841,different tablets
+842,Photography Accessories
+843,"Had a bug here, lost 45+ minutes, i'm so angry with ur code: \n https://drive.google.com/file/d/1sIY3Pk2UOg2H1BDGYqZWJOiiIUlWh8HF/view?usp=sharing"
+844,Tablet and accesories
+845,Cases
+846,Memory banks
+847,Wiring ethernet cable and hiding the wires so you do not trip over them. Likely to be used in an office setting.
+848,types of ethernet cabels or pins
+849,different binoculars
+850,watching tv
+851,camera and accessories
+852,assembling a desktop
+853,different headphones
 854,user wants power adapter with battery
 855,Audio Devices
 856,Computer Accessories
 857,apple device protection
 858,vehicle recording 
 859,radio antenna 
-860,no intent
+860,different cables
 861,adapters
 862,music players
 863,car interior 
@@ -902,179 +902,179 @@ radio and reverse camera"
 895,galaxy tab accessories
 896,assembling desktop computer
 897,NAS Storage Array
-898,no intent
-899,no intent
-900,camera lens
-901,All camera accessories 
-902,no intent
+898,assembling a desktop
+899,camera lens
+900,All camera accessories 
+901,different cables
+902,different cables
 903,Repair disk
-904,no intent
+904,camera accessories
 905,Building a Computer
 906,Data storage
 907,T-MOBILE ACCESSORIES
 908,computer accesories
-909,no intent
-910,no intent
-911,no intent
-912,Desktop Cable
-913,Mounting a Ceiling Monitor TV
-914,assembling a desktop
-915,Nikon Camera Equipment
-916,Nikon Camera Lens and accessories
-917,Computer Hardware Installation
-918,mp3 video players
-919,ipad accessories
-920,tablet stand
-921,assembling of computer r
-922,adapter
-923,Desktop essentials
-924,computer
-925,memmory devices
-926,TV and accessories
-927,ethernet cable
-928,Conference/Server room
-929,Headphones 
-930,sony brand
-931,no intent
-932,no intent
-933,Filming
-934,Equipment Tripods/Stands
-935,no intent
-936,cover case
-937,Protecting Tablet
-938,no intent
-939,computer accessories
-940,battery
-941,no intent
-942,peripherals for laptop/desktop
-943,Phone products
-944,Photography
-945,wireless keyboard and mouse
-946,VGA adaptors
-947,Tablet accessories 
-948,no intent
-949,Display connectors
-950,accessories 
-951,Electrical consumables
-952,Laptop build
-953,buying an hard disk and a protection for it
-954,ipod nano and accessories
-955,no intent
-956,no intent
-957,Protecting DLSR 
-958,Operating Tivo stream unit
-959,Protective Cases for Gadgets
-960,Cover for iPad
-961,camera accessories
-962,Computer Hardware
-963,Charging
-964,PC Accessories
-965,Flip Recording and Uploading
-966,Protect and use iPad Mini 
-967,HDMI storage 
-968,Protecting a device
-969,Networking
-970,AV setup
-971,Both routers
-972,RCA cables to use with the bluetooth speaker
-973,Photography
-974,Camera accesories 
-975,Storage
-976,assembling computer
-977,watching dvds on at tv trought a desktop
-978,assempling a desktop
-979,photography accessories
-980,minor desktop upgrade
-981,Desk setup
-982,Audio Equipment
-983,HDMI connection
-984,Sound system 
-985,computer accessories
-986,possible dj equipment
-987,Power backup
-988,Portable Audio mixing kit
-989,Photo Equipment
-990,nice
-991,protecting macbook
-992,good picture lightings
-993,"TRAVELING, ADAPTERS AND TO CONNECT A SMARTPHONE TO a tv or laptot and make things easier"
-994,Adaptor
-995,TV Streaming setup
-996,Speaker Accessories 
-997,Apple keypad and trackpad
-998,Mac Accessories 
-999,Internet Items 
-1000,Apple Desktop bundle
-1001,Building a PC
-1002,assembling a desktop
-1003,no intent
-1004,memory card
-1005,Computer accessories
-1006,cctv connection
-1007,headphones
-1008,camera supplies
-1009,no intent
-1010,no intent
-1011,Burner replacement
-1012,Cable spare parts
-1013,aaassembling a desktop pc
-1014,Camera accessories
-1015,for using camera for better performance
-1016,backup memory (complementary products)
-1017,Gaming monitor and PC remote
-1018,make digital photos
-1019,usb cable
-1020,mechanical keyboard
-1021,Watching a movie
-1022,no intent
-1023,no intent
-1024,no intent
-1025,SMARTPHONE ACCESSORIES
-1026,Sound system
-1027,Memory card
-1028,Laptop Accesories
-1029,cd player
-1030,keyboard
-1031,nice quality laptop to buy
-1032,Digital Camera
-1033,ethernet cable
-1034,micro card and card reader
-1035,reasonable accessories
-1036,Laptop Package
-1037,Audio Devices
-1038,SD Cards
-1039,cables
-1040,Photography Accessories
-1041,Yes that is related because the user can take video and edit with macbook
-1042,Laptops
-1043,Keyboard
-1044,Display
-1045,"3,4,5 and 8 product is same,
+909,protecting ipad
+910,different cases
+911,power supply for laptops
+912,power supply and cables
+913,Desktop Cable
+914,Mounting a Ceiling Monitor TV
+915,assembling a desktop
+916,Nikon Camera Equipment
+917,Nikon Camera Lens and accessories
+918,Computer Hardware Installation
+919,mp3 video players
+920,ipad accessories
+921,tablet stand
+922,assembling of computer r
+923,adapter
+924,Desktop essentials
+925,computer
+926,memmory devices
+927,TV and accessories
+928,ethernet cable
+929,Conference/Server room
+930,Headphones 
+931,sony brand
+932,assembling a desktop
+933,different hard drive
+934,Filming
+935,Equipment Tripods/Stands
+936,external storage
+937,camera accessories
+938,cover case
+939,Protecting Tablet
+940,ipod and accessories
+941,computer accessories
+942,battery
+943,camera and accessories
+944,peripherals for laptop/desktop
+945,Phone products
+946,Photography
+947,wireless keyboard and mouse
+948,VGA adaptors
+949,Tablet accessories 
+950,router and accessories
+951,Display connectors
+952,accessories 
+953,Electrical consumables
+954,Laptop build
+955,buying an hard disk and a protection for it
+956,ipod nano and accessories
+957,assembling a desktop
+958,protecting ipad
+959,Protecting DLSR 
+960,Operating Tivo stream unit
+961,Protective Cases for Gadgets
+962,Cover for iPad
+963,camera accessories
+964,Computer Hardware
+965,Charging
+966,PC Accessories
+967,Flip Recording and Uploading
+968,Protect and use iPad Mini 
+969,HDMI storage 
+970,Protecting a device
+971,Networking
+972,AV setup
+973,Both routers
+974,RCA cables to use with the bluetooth speaker
+975,Photography
+976,Camera accesories 
+977,Storage
+978,assembling computer
+979,watching dvds on at tv trought a desktop
+980,assempling a desktop
+981,photography accessories
+982,minor desktop upgrade
+983,Desk setup
+984,Audio Equipment
+985,HDMI connection
+986,Sound system 
+987,computer accessories
+988,possible dj equipment
+989,Power backup
+990,Portable Audio mixing kit
+991,Photo Equipment
+992,nice
+993,protecting macbook
+994,good picture lightings
+995,"TRAVELING, ADAPTERS AND TO CONNECT A SMARTPHONE TO a tv or laptot and make things easier"
+996,Adaptor
+997,TV Streaming setup
+998,Speaker Accessories 
+999,Apple keypad and trackpad
+1000,Mac Accessories 
+1001,Internet Items 
+1002,Apple Desktop bundle
+1003,Building a PC
+1004,assembling a desktop
+1005,camera and accessories
+1006,memory card
+1007,Computer accessories
+1008,cctv connection
+1009,headphones
+1010,camera supplies
+1011,protecting ipod
+1012,protecting ipad
+1013,Burner replacement
+1014,Cable spare parts
+1015,aaassembling a desktop pc
+1016,Camera accessories
+1017,for using camera for better performance
+1018,backup memory (complementary products)
+1019,Gaming monitor and PC remote
+1020,make digital photos
+1021,usb cable
+1022,mechanical keyboard
+1023,Watching a movie
+1024,camera and accessories
+1025,external storage
+1026,SMARTPHONE ACCESSORIES
+1027,Sound system
+1028,Memory card
+1029,Laptop Accesories
+1030,cd player
+1031,keyboard
+1032,nice quality laptop to buy
+1033,Digital Camera
+1034,ethernet cable
+1035,micro card and card reader
+1036,reasonable accessories
+1037,Laptop Package
+1038,Audio Devices
+1039,SD Cards
+1040,cables
+1041,Photography Accessories
+1042,Yes that is related because the user can take video and edit with macbook
+1043,Laptops
+1044,Keyboard
+1045,Display
+1046,"3,4,5 and 8 product is same,
 1,2,6,7 and 9 product is same."
-1046,All items related to camera & photo and are complimentary products
-1047,GoPro and accessories
-1048,All the products related MacBook
-1049,Ethernet cable
-1050,Data saver
-1051,Computer Storage and Networking
-1052,Listening and Managing Music
-1053,no intent
-1054,battery
-1055,Camera
-1056,video coverage kit
-1057,entertainment
-1058,Tv wall  mount 
-1059,Protecting music player
-1060,Protection for Nook
-1061,Laptop/pc peripherals
-1062,Music
-1063,no intent
-1064,streaming
-1065,Ram
-1066,Battery and charger 
-1067,desktop computer assembly
-1068,no intent
-1069,no intent
+1047,All items related to camera & photo and are complimentary products
+1048,GoPro and accessories
+1049,All the products related MacBook
+1050,Ethernet cable
+1051,Data saver
+1052,Computer Storage and Networking
+1053,Listening and Managing Music
+1054,different adapters
+1055,battery
+1056,Camera
+1057,video coverage kit
+1058,entertainment
+1059,Tv wall  mount 
+1060,Protecting music player
+1061,Protection for Nook
+1062,Laptop/pc peripherals
+1063,Music
+1064,camera and accessories
+1065,streaming
+1066,Ram
+1067,Battery and charger 
+1068,desktop computer assembly
+1069,different laptops
 1070,Crafting an RC Car
 1071,power steering repair/upgrade
 1072,Desktop Computer
@@ -1102,7 +1102,7 @@ radio and reverse camera"
 1094,Assembling a cpu
 1095,male to female extension  cable
 1096,adapters
-1097,no intent
+1097,camera accessories
 1098,Protecting Macbook
 1099,computer set up
 1100,LED HDTV
@@ -1116,51 +1116,51 @@ radio and reverse camera"
 1108,TV accessories
 1109,Sound system package
 1110,content streaming from mobile devices 
-1111,no intent
-1112,no intent
-1113,no intent
-1114,no intent
-1115,Hard Drive expansion for Desktop PC
-1116,TV Samsung
-1117,Octagon Umbrella Speedlite Softbox
-1118,Photography Studio
-1119,watch media on devices 
-1120,no intent
-1121,Tab Protector
-1122,Samsung Galaxy Tablet protection
-1123,Canon Rebel Accessories
-1124,camera setup
-1125,Apple products
-1126,Laptop accessories
-1127,for my pc
-1128,RCA adapter
-1129,Accessories for photographers
-1130,voice recording
-1131,Protecting ipad
-1132,Protecting apple macbook pro
-1133,Laptop cover
-1134,Anti-dust plug cup and fine point stylus
-1135,Home recording.
-1136,Desktop accessories 
-1137,Audio & Video complete set
-1138,Office Storage kit
-1139,no intent
-1140,no intent
-1141,no intent
-1142,USB Dok
-1143,nice 
-1144,Setting up satellite TV dish
-1145,cooling fan
-1146,assembling a pc case
-1147,Complementary
-1148,pc and extra ssd
-1149,no intent
-1150,no intent
-1151,no intent
+1111,camera accessories
+1112,Hard Drive expansion for Desktop PC
+1113,TV Samsung
+1114,Octagon Umbrella Speedlite Softbox
+1115,Photography Studio
+1116,watch media on devices 
+1117,hard drive and accessories
+1118,Tab Protector
+1119,Samsung Galaxy Tablet protection
+1120,Canon Rebel Accessories
+1121,camera setup
+1122,Apple products
+1123,Laptop accessories
+1124,for my pc
+1125,RCA adapter
+1126,Accessories for photographers
+1127,voice recording
+1128,Protecting ipad
+1129,Protecting apple macbook pro
+1130,Laptop cover
+1131,Anti-dust plug cup and fine point stylus
+1132,Home recording.
+1133,Desktop accessories 
+1134,Audio & Video complete set
+1135,Office Storage kit
+1136,receiver and cables
+1137,receiver and cables
+1138,different audio cables
+1139,different cases
+1140,making speakers
+1141,USB Dok
+1142,nice 
+1143,Setting up satellite TV dish
+1144,cooling fan
+1145,assembling a pc case
+1146,Complementary
+1147,pc and extra ssd
+1148,different cables
+1149,macbook cases
+1150,camera accessories
+1151,macbook accessories
 1152,2
 1153,Alternative products
 1154,MP4 player and SD card
-1155,no intent
+1155,protecting smartphone
 1156,Car audio system
 1157,cable management
 1158,protectors for mobile devices
@@ -1172,7 +1172,7 @@ radio and reverse camera"
 1164,Photography Equipment
 1165,MSI Computer
 1166,Build a computer
-1167,no intent
+1167,different hard drive
 1168,Charger for Electronic Devices
 1169,Radio Accessories
 1170,Home Security
@@ -1215,297 +1215,297 @@ radio and reverse camera"
 1206,iPad 
 1207,EnGenius Technologies
 1208, V1810-48G Ethernet Switch
-1209,no intent
-1210,cable
-1211,Monitor installation
-1212,chase connectivity
-1213,tv support
-1214,Literary 
-1215,tablet/ereader
-1216,apple products
-1217,streaming devices
-1218,Laptop Bundle - can cast laptop using chrome cast 
-1219,mac accessories 
-1220,Media Bundle
-1221,PC build
-1222,usb cable
-1223,Hard drive
-1224,IPAD and related accessories
-1225,memory card for tablet
-1226,setting up wifi
-1227,Camera accessories
-1228,Frame + storage
-1229,Camera and accecories 
-1230,Camera Accessories
-1231,no intent
-1232,buying a new camera and accessories
-1233,They're all keyboard case covers.
-1234,LED TV
-1235,watching tv
-1236,mouse and keybord
-1237,Needed for operation.
-1238,Accessories for a HP laptop
-1239,Protecting google nexus 7
-1240,Portable Music (MP3) and movie watching
-1241,digital sound bundle
-1242,Tripods
-1243,Camera accessories 
-1244,Camera lenses
-1245,Cc tv camera
-1246,Assembling a PC
-1247,"Saving files, photos, datas"
-1248,Increasing storage capacity
-1249,Protecting PC from power surges and power failures
-1250,sound
-1251,no intent
-1252,tablet
-1253,Digital camera
-1254,Cables
-1255,no intent
-1256,no intent
-1257,Purchasing device and accessories for taking videos and pictures
-1258,Cannon accessories
-1259,building a new computer
-1260,Camera and Memory Card
-1261,Garmin Bundle
-1262,router with protection
-1263,Charging a camera and taking/storing professional photography.
-1264,Batteries
-1265,no intent
-1266,no intent
-1267,Power bank and cable 
-1268,Using iPad as computer
-1269,Book reading
-1270,computer/PC build 
-1271,CCTV Setup
-1272,listening
-1273,Assembling a PC
-1274,"The customer's intent is what those keywords or queries are really ... Transactional – The user is prepared to buy or to perform some other specific online activity. The basic idea is that everyone who performs an Internet search has a ... be designed to match the user's intent, not just to pitch your product."
-1275,Installing earoads on headphones
-1276,for music
-1277,A new tablet and protection for it
-1278,Assembling a Desktop
-1279,building a desktop
-1280,  laptop processor with laptop gb
-1281,I pad accessories
-1282,Card reader
-1283,Network Station Assembling
-1284,raspberry
-1285,Raspberry Pi 8GB Preloaded (NOOBS) SD Card and Micro USB Power Supply Charger
-1286,Cannon Camera accessories
-1287,ASUS Transformer
-1288,VGA
-1289,Similar item
-1290,SD / HD
-1291,no intent
-1292,no intent
-1293,no intent
-1294,I see two different subsets. The first subset is two items are the tablets. The second subset are the SD card and the surveillance camera.
-1295,Tablet
-1296,no intent
-1297,tablet accessories
-1298,upgrading/enhancing/protecting a Tablet.
-1299,Protecting Barnes & Noble Nook
-1300,Wireless adapter assembly
-1301,These products are used for connect a computer.
-1302,no intent
-1303,External Hard Drive
-1304,DVR
-1305,no intent
-1306,no intent
-1307,Pc assembly
-1308,assembling a desktop computer
-1309,HDMI cables
-1310,Computer accessories
-1311,USB
-1312,assembling camera parts
-1313,digital camera protection and memory
-1314,Video signal converter
-1315,associated connectors for the products
-1316,Protecting Ipad
-1317,Tablet and accessories 
-1318,computer repair
-1319,Storage devices
-1320,Audio video cables
-1321,laptop batteries
-1322,All products are computer based things
-1323,Tablet accessories
-1324,Mouse (wireless and wired)
-1325,SPACE
-1326,Flash card and storage
-1327,Camera Equipment
-1328,tablet and accesories 
-1329,Assembling a pc
-1330,For tv
-1331,Computer accessories
-1332,Headphones
-1333,Camera Accessories 
-1334,Headphones
-1335,Ethernet
-1336,PC/Laptop
-1337,Electric plugs
-1338,Camera Gear
-1339,photography
-1340,Audio
-1341,TV setup
-1342,audio devices
-1343,USB extension
-1344,cables
-1345,SOme kind of electronics setup
-1346,Cd and case
-1347,Video stabilizer and  cables
-1348,IPAD ACCESSORY
-1349,Canon battery
-1350,I pad mini case and screen protector
-1351,PC Accessories
-1352,This would be great bundle for someone in photography  
-1353,digital camera
-1354,no intent
-1355,headphone with audio parts
-1356,Audio car system
-1357,CAR SOUND SYSTEM
-1358,"To have and store cables
+1209,smartphone accessories
+1210,smartphone accessories
+1211,cable
+1212,Monitor installation
+1213,chase connectivity
+1214,tv support
+1215,Literary 
+1216,tablet/ereader
+1217,apple products
+1218,streaming devices
+1219,Laptop Bundle - can cast laptop using chrome cast 
+1220,mac accessories 
+1221,Media Bundle
+1222,PC build
+1223,usb cable
+1224,Hard drive
+1225,IPAD and related accessories
+1226,memory card for tablet
+1227,setting up wifi
+1228,Camera accessories
+1229,Frame + storage
+1230,Camera and accecories 
+1231,Camera Accessories
+1232,different cables
+1233,different cables
+1234,different cables
+1235,buying a new camera and accessories
+1236,They're all keyboard case covers.
+1237,LED TV
+1238,watching tv
+1239,mouse and keybord
+1240,Needed for operation.
+1241,Accessories for a HP laptop
+1242,Protecting google nexus 7
+1243,Portable Music (MP3) and movie watching
+1244,digital sound bundle
+1245,Tripods
+1246,Camera accessories 
+1247,Camera lenses
+1248,Cc tv camera
+1249,Assembling a PC
+1250,"Saving files, photos, datas"
+1251,Increasing storage capacity
+1252,Protecting PC from power surges and power failures
+1253,sound
+1254,camera and accessories
+1255,assembling security camera
+1256,tablet
+1257,Digital camera
+1258,Cables
+1259,camera and accessories
+1260,different cables
+1261,Purchasing device and accessories for taking videos and pictures
+1262,Cannon accessories
+1263,building a new computer
+1264,Camera and Memory Card
+1265,Garmin Bundle
+1266,router with protection
+1267,Charging a camera and taking/storing professional photography.
+1268,Batteries
+1269,different sd card
+1270,binoculars and accessories
+1271,different strip
+1272,Power bank and cable 
+1273,Using iPad as computer
+1274,Book reading
+1275,computer/PC build 
+1276,CCTV Setup
+1277,listening
+1278,Assembling a PC
+1279,"The customer's intent is what those keywords or queries are really ... Transactional – The user is prepared to buy or to perform some other specific online activity. The basic idea is that everyone who performs an Internet search has a ... be designed to match the user's intent, not just to pitch your product."
+1280,Installing earoads on headphones
+1281,for music
+1282,A new tablet and protection for it
+1283,Assembling a Desktop
+1284,building a desktop
+1285,  laptop processor with laptop gb
+1286,I pad accessories
+1287,Card reader
+1288,Network Station Assembling
+1289,raspberry
+1290,Raspberry Pi 8GB Preloaded (NOOBS) SD Card and Micro USB Power Supply Charger
+1291,Cannon Camera accessories
+1292,ASUS Transformer
+1293,VGA
+1294,Similar item
+1295,SD / HD
+1296,camera accessories
+1297,I see two different subsets. The first subset is two items are the tablets. The second subset are the SD card and the surveillance camera.
+1298,Tablet
+1299,external storage
+1300,tablet accessories
+1301,upgrading/enhancing/protecting a Tablet.
+1302,Protecting Barnes & Noble Nook
+1303,Wireless adapter assembly
+1304,These products are used for connect a computer.
+1305,camera accessories
+1306,External Hard Drive
+1307,DVR
+1308,camera accessories
+1309,camera accessories
+1310,Pc assembly
+1311,assembling a desktop computer
+1312,HDMI cables
+1313,Computer accessories
+1314,USB
+1315,assembling camera parts
+1316,digital camera protection and memory
+1317,Video signal converter
+1318,associated connectors for the products
+1319,Protecting Ipad
+1320,Tablet and accessories 
+1321,computer repair
+1322,Storage devices
+1323,Audio video cables
+1324,laptop batteries
+1325,All products are computer based things
+1326,Tablet accessories
+1327,Mouse (wireless and wired)
+1328,SPACE
+1329,Flash card and storage
+1330,Camera Equipment
+1331,tablet and accesories 
+1332,Assembling a pc
+1333,For tv
+1334,Computer accessories
+1335,Headphones
+1336,Camera Accessories 
+1337,Headphones
+1338,Ethernet
+1339,PC/Laptop
+1340,Electric plugs
+1341,Camera Gear
+1342,photography
+1343,Audio
+1344,TV setup
+1345,audio devices
+1346,USB extension
+1347,cables
+1348,SOme kind of electronics setup
+1349,Cd and case
+1350,Video stabilizer and  cables
+1351,IPAD ACCESSORY
+1352,Canon battery
+1353,I pad mini case and screen protector
+1354,PC Accessories
+1355,This would be great bundle for someone in photography  
+1356,digital camera
+1357,laptop accessories
+1358,headphone with audio parts
+1359,Audio car system
+1360,CAR SOUND SYSTEM
+1361,"To have and store cables
 "
-1359,charging apple products
-1360,"By purchasing this bundle you are getting an all in one for you IPad. You receive a travel bag, cases for the IPad(s) and a wireless mouse to connect to. "
-1361,device protection
-1362,no intent
-1363,"upgrading their laptop performance, and wifi connectivity at home 
+1362,charging apple products
+1363,"By purchasing this bundle you are getting an all in one for you IPad. You receive a travel bag, cases for the IPad(s) and a wireless mouse to connect to. "
+1364,device protection
+1365,GPS navigator and accessories
+1366,"upgrading their laptop performance, and wifi connectivity at home 
 "
-1364,Store Data
-1365,photography
-1366,Video Accessories
-1367,surge protector
-1368,digital camera accesories
-1369,JUNCTION BOX
-1370,Desktop maintenance
-1371,Computer parts 
-1372,Thermal paste is essential in processor installation 
-1373,Assembling a desktop computer
-1374,home cinema and projector
-1375,quality
-1376,car stereo upgrade
-1377,Good for computer set up 
-1378,Installing Internet TV
-1379,no intent
-1380,Necessary tools for Photographer.
-1381,SD Cards
-1382,protecting a iPad
-1383,Roku and Accessories
-1384,Camera Accessories
-1385,FOR PROTECTION AGAINST LOST DAMAGE
-1386,Headphone
-1387,Different protection cases
-1388,no intent
-1389,Build a computer
-1390,Laptop & accessories
-1391,Headphones
-1392,no intent
-1393,no intent
-1394,security systems
-1395,light
-1396,CCTV camera
-1397,set 1
-1398,Person is buying accessories for a tablet.
-1399,Laptops
-1400,Building a pc
-1401,Computer
-1402,no intent
-1403,no intent
-1404,no intent
-1405,Walkie Talkies and Accessories
-1406,Computers Parts
-1407,memory 
-1408,Protecting and enhancing a Laptop
-1409,Assembling a Camera
-1410,items for camera
-1411,computer and accessories
-1412,Camera case
-1413,camera device
-1414,Camera Accessories
-1415,Protecting camera
-1416,Canon Powershot bundle
-1417,connectivity
-1418,storage disc
-1419,no intent
-1420,no intent
-1421,All items to be used as accessories for PlayStation
-1422,Audio
-1423,Infra red/Signal
-1424,Tablet Accessories
-1425,computer accessories
-1426,TV brackets
-1427,Amazon kindle
-1428,Audio
-1429,It has a case for the table and different cords to make some kinda of connection. This bunddle make sense
-1430,phone attach
-1431,Umbrella Types
-1432,Photography 
-1433,GPS and Accessories 
-1434,GPS Navigators
-1435,no intent
-1436,antenna 
-1437,cover
-1438,security system with video
-1439,Assembling radio communication
-1440,storage device
-1441,no intent
-1442,no intent
-1443,Laptop Cooling Accessories
-1444,Assembling the PWM fan
-1445,no intent
-1446,no intent
-1447,headphones
-1448,camera items
-1449,Tablets
-1450,Case cover
-1451,no intent
-1452,PC peripherals
-1453,input controls
-1454,mouse is same 
-1455,wire and pin is connect
-1456,BATTERY
-1457,Purchasing equipment for photography
-1458,camera bag
-1459,These are similar products and inbuilt used.
-1460,computer uses
-1461,Subset
-1462,"In the photo 3-4-5 there was a purchase of a camera, memory to store photos to put in the camera and a case for the camera"
-1463,portable storage
-1464,travel gear
-1465,Laptop gadgets
-1466,photography equipment
-1467,TV antenna accessories
-1468,"Both are 3.0 cable modems, same type of products"
-1469,no intent
-1470,Parts one can use for a desktop
-1471,Building a computer
-1472,Home tv setup
-1473,SD Cards
-1474,Disc BUNDLE
-1475,HDMI Cable with Ethernet
-1476,store information
-1477,New Tablet Purchase 
-1478,SPEED
-1479,Accessories for Galaxy Tab
-1480,SD Cards
-1481,Memory Expansion for Mobile Device
-1482,link video devices 
-1483,TV system
-1484,Metra fixings
-1485,USB devices
-1486,Smart TV additions
-1487,Toyota radio upgrade
-1488,multimedia tv setup
-1489,assembling a desktop
-1490,Building a computer and entertainment to go with it. 
-1491,no intent
-1492,no intent
-1493,no intent
-1494,no intent
-1495,no intent
-1496,no intent
-1497,no intent
+1367,Store Data
+1368,photography
+1369,Video Accessories
+1370,surge protector
+1371,digital camera accesories
+1372,JUNCTION BOX
+1373,Desktop maintenance
+1374,Computer parts 
+1375,Thermal paste is essential in processor installation 
+1376,Assembling a desktop computer
+1377,home cinema and projector
+1378,quality
+1379,car stereo upgrade
+1380,Good for computer set up 
+1381,Installing Internet TV
+1382,external storage
+1383,cd storage
+1384,Necessary tools for Photographer.
+1385,SD Cards
+1386,protecting a iPad
+1387,Roku and Accessories
+1388,Camera Accessories
+1389,FOR PROTECTION AGAINST LOST DAMAGE
+1390,Headphone
+1391,Different protection cases
+1392,assembling a desktop
+1393,Build a computer
+1394,Laptop & accessories
+1395,Headphones
+1396,different cables
+1397,security systems
+1398,light
+1399,CCTV camera
+1400,set 1
+1401,Person is buying accessories for a tablet.
+1402,Laptops
+1403,Building a pc
+1404,Computer
+1405,protecting tablet
+1406,cd storage
+1407,Walkie Talkies and Accessories
+1408,Computers Parts
+1409,memory 
+1410,Protecting and enhancing a Laptop
+1411,Assembling a Camera
+1412,items for camera
+1413,computer and accessories
+1414,Camera case
+1415,camera device
+1416,Camera Accessories
+1417,Protecting camera
+1418,Canon Powershot bundle
+1419,connectivity
+1420,storage disc
+1421,different USB hubs
+1422,different cables
+1423,All items to be used as accessories for PlayStation
+1424,Audio
+1425,Infra red/Signal
+1426,Tablet Accessories
+1427,computer accessories
+1428,TV brackets
+1429,Amazon kindle
+1430,Audio
+1431,It has a case for the table and different cords to make some kinda of connection. This bunddle make sense
+1432,phone attach
+1433,Umbrella Types
+1434,Photography 
+1435,GPS and Accessories 
+1436,GPS Navigators
+1437,different cables
+1438,antenna 
+1439,cover
+1440,security system with video
+1441,Assembling radio communication
+1442,storage device
+1443,different cables
+1444,Laptop Cooling Accessories
+1445,Assembling the PWM fan
+1446,tablet and accessories
+1447,camera accessories
+1448,headphones
+1449,camera items
+1450,Tablets
+1451,Case cover
+1452,protecting tablet
+1453,PC peripherals
+1454,input controls
+1455,mouse is same 
+1456,wire and pin is connect
+1457,BATTERY
+1458,Purchasing equipment for photography
+1459,camera bag
+1460,These are similar products and inbuilt used.
+1461,computer uses
+1462,Subset
+1463,"In the photo 3-4-5 there was a purchase of a camera, memory to store photos to put in the camera and a case for the camera"
+1464,portable storage
+1465,travel gear
+1466,Laptop gadgets
+1467,photography equipment
+1468,TV antenna accessories
+1469,"Both are 3.0 cable modems, same type of products"
+1470,camera and accessories
+1471,Parts one can use for a desktop
+1472,Building a computer
+1473,Home tv setup
+1474,SD Cards
+1475,Disc BUNDLE
+1476,HDMI Cable with Ethernet
+1477,store information
+1478,New Tablet Purchase 
+1479,SPEED
+1480,Accessories for Galaxy Tab
+1481,SD Cards
+1482,Memory Expansion for Mobile Device
+1483,link video devices 
+1484,TV system
+1485,Metra fixings
+1486,USB devices
+1487,Smart TV additions
+1488,Toyota radio upgrade
+1489,multimedia tv setup
+1490,assembling a desktop
+1491,Building a computer and entertainment to go with it. 
+1492,listening to music
+1493,camera and accessories
+1494,hard drive storage and case
+1495,external storage
+1496,camera and accessories
+1497,assembling a desktop
 1498,assembling desktop PC
 1499,Samsung tab and case
 1500,Storage
@@ -1515,7 +1515,7 @@ radio and reverse camera"
 1504,HDMI adapter
 1505,connectivity
 1506,mobile accessories
-1507,no intent
+1507,camera accessories
 1508,Cables
 1509,Desktop accessories 
 1510,iPad keyboard cases
@@ -1548,71 +1548,71 @@ radio and reverse camera"
 1537,Ipod
 1538,usage of GoPro HERO3
 1539,Camera Items
-1540,no intent
-1541,no intent
-1542,Pc accessories
-1543,Audio
-1544,tripod
-1545,for packaging
-1546,Bag/storage
-1547,These items have been bought for the intent of trekking or during travel
-1548,Camera accesories
-1549,Wireless Speaker
-1550,streaming player
-1551,Media player
-1552,GPS navigator and case
-1553,Photography accessories 
-1554,cameras
-1555,dancing water
-1556,no intent
-1557,CAR DECORATION
-1558,coaxial speakers and stereo receivers for car audio
-1559,no intent
-1560,"This is a bundle for a photographer who wants to be equipped not only with a camera but also with accessories such as a lens, extra batteries and a flash light and to have a bag to carry all that."
-1561,accessories for photography
-1562,Monitors
-1563,Assembling a desktop
-1564,Computer parts for assembly
-1565,storage devices
-1566,Wifi at home
-1567,bundle for entertainment audio/video system
-1568,Watching Blu-ray discs
-1569,Security bundle.
-1570,Computer attatchments
-1571,Canon Camera accessories
-1572,Taking pictures and storing on external hard drive
-1573,no intent
-1574,"assembling a computer
+1540,camera accessories
+1541,Pc accessories
+1542,Audio
+1543,tripod
+1544,for packaging
+1545,Bag/storage
+1546,These items have been bought for the intent of trekking or during travel
+1547,Camera accesories
+1548,Wireless Speaker
+1549,streaming player
+1550,Media player
+1551,GPS navigator and case
+1552,Photography accessories 
+1553,cameras
+1554,dancing water
+1555,case for tablet
+1556,CAR DECORATION
+1557,coaxial speakers and stereo receivers for car audio
+1558,external storage
+1559,"This is a bundle for a photographer who wants to be equipped not only with a camera but also with accessories such as a lens, extra batteries and a flash light and to have a bag to carry all that."
+1560,accessories for photography
+1561,Monitors
+1562,Assembling a desktop
+1563,Computer parts for assembly
+1564,storage devices
+1565,Wifi at home
+1566,bundle for entertainment audio/video system
+1567,Watching Blu-ray discs
+1568,Security bundle.
+1569,Computer attatchments
+1570,Canon Camera accessories
+1571,Taking pictures and storing on external hard drive
+1572,tablet and accessories
+1573,"assembling a computer
 "
-1575,computer mother board equipment
-1576,Storing presentations with the laptop
-1577,no intent
-1578,no intent
-1579,price
-1580,ipad protection
-1581,charger
-1582,hard drive
-1583,camera lens
-1584,Apple TV device
-1585,item1 and item2
-1586,Laptop products
-1587,usb
-1588,speaker
-1589,tv mounting
-1590,Wall monitor
-1591,multimedia kit
-1592,Digital camera
-1593,gadget bag
-1594,Carrying Case
-1595,Hard drive and protection accessories
-1596,charger
-1597,Ipad tablet accessories 
-1598,Computer accessories
-1599,no intent
+1574,computer mother board equipment
+1575,Storing presentations with the laptop
+1576,different backing boards
+1577,different graphics cards
+1578,price
+1579,ipad protection
+1580,charger
+1581,hard drive
+1582,camera lens
+1583,Apple TV device
+1584,item1 and item2
+1585,Laptop products
+1586,usb
+1587,speaker
+1588,tv mounting
+1589,Wall monitor
+1590,multimedia kit
+1591,Digital camera
+1592,gadget bag
+1593,Carrying Case
+1594,Hard drive and protection accessories
+1595,charger
+1596,Ipad tablet accessories 
+1597,Computer accessories
+1598,different adaptors
+1599,different watches
 1600,Tablet Accessories
 1601,TV Box/Streaming Box
 1602,galaxy tab and protection
-1603,no intent
+1603,different monitors
 1604,camera accessories
 1605,survillence kit
 1606,photography
@@ -1650,112 +1650,112 @@ radio and reverse camera"
 1638,Data transfer
 1639,DSLR Camera
 1640,storing tablet for travel
-1641,no intent
+1641,headphones and accessories
 1642,Photography
-1643,no intent
-1644,ear bud
-1645,Apple iPod shuffle 2 GB
-1646,HDMI connection
-1647,Wifi
-1648,Mounting a PC
-1649,Cable
-1650,Keyboard
-1651,plate
-1652,Fotodiox Macro Reverse Ring Camera Mount Adapter and Rechargeable Battery for Canon
-1653,storage items
-1654,connecting cable
-1655,Camera  kit
-1656,photo set
-1657,CD and its case
-1658,laptop with wireless mouse
-1659,cooling fans
-1660,desktop assembling
-1661,car gadgets
-1662,Tab accessories 
-1663,Accessories  for ipod
-1664,Assembling a desktop pc with peripherals
-1665,webcam station
-1666,Assembling PC Desktop
-1667,no intent
-1668,no intent
-1669,no intent
-1670,Camera equipment and accessories
-1671,audio system
-1672,"For an audiophile who needs professional equipment, all in one bundle"
-1673,protect iPad
-1674,connection Purpose
-1675,listen to music
-1676,smart room upgrade
-1677,professional computer peripherals
-1678,computer related
-1679,assembling a computer
-1680,Desktop assemblers
-1681,Make a PC build whit all the items
-1682,Adapter
-1683,LED
-1684,LED/LCD TV
-1685,cable and monitor
-1686,CREATRE A DIPLAY UNIT
-1687,carry their data with them in style
-1688,Accessories for ipad
-1689,TV/Electronic Wires
-1690,All items related to better use of tablet pc
-1691,Earbuds
-1692,Seems to be a complete set up for building a desktop computer. Just missing RAM and a graphics card if required. 
-1693,SMARTPHONE INPUT DEVICES
-1694,Laptop
-1695,Buying and upgrading a laptop
-1696,"home, work office, online"
-1697,Externals
-1698,photographer
-1699,These items can all be used with a camera/camera equipment such as lighting etc.
-1700,install car cd player
-1701,They have a sterio and a frame for the serio then a tv.
-1702,Wifi related
-1703,Home entertainment system
-1704,TV media 
-1705,navigation
-1706,Gaming
-1707,very nice one
-1708,they are all electronic items. thank you
-1709,accessorising digital camera
-1710,Digital camera bundle
-1711,no intent
-1712,computer related
-1713,Photography
-1714,Canon camera setup
-1715,no intent
-1716,no intent
-1717,no intent
-1718,Photography hardware
-1719,similar products and for various accessories and related to each other
-1720,audio devices
-1721,Lighting for professional shootings
-1722,Digital Photography
-1723,have reliable audio peripherals with your ipad
-1724,headphones
-1725,MOBILE PHONE
-1726,ipad keyboard
-1727,Smartphone screen protector
-1728,Adapters for electronic data transfer.
-1729,HDD and Accessories
-1730,Apple product compatibility
-1731,Speakers connection/use relation to device's output experience for humans
-1732,Audio
-1733,External hard drive
-1734,music player
-1735,computer
-1736,audio amplifier
-1737,tablet cover
-1738,laptop case
-1739,monitor and accessories
-1740,Photograph studio / set / photoshoot
-1741,Computer or Laptop accessories
-1742,Network devices
-1743,Adaptors
-1744,Equipment used to set up projector 
-1745,for making a desktop pc
-1746,Computer peripherals
-1747,photography
-1748,nice
-1749,no intent
+1643,computer accessories
+1644,external storage
+1645,ear bud
+1646,Apple iPod shuffle 2 GB
+1647,HDMI connection
+1648,Wifi
+1649,Mounting a PC
+1650,Cable
+1651,Keyboard
+1652,plate
+1653,Fotodiox Macro Reverse Ring Camera Mount Adapter and Rechargeable Battery for Canon
+1654,storage items
+1655,connecting cable
+1656,Camera  kit
+1657,photo set
+1658,CD and its case
+1659,laptop with wireless mouse
+1660,cooling fans
+1661,desktop assembling
+1662,car gadgets
+1663,Tab accessories 
+1664,Accessories  for ipod
+1665,Assembling a desktop pc with peripherals
+1666,webcam station
+1667,Assembling PC Desktop
+1668,camera and accessories
+1669,Camera equipment and accessories
+1670,audio system
+1671,"For an audiophile who needs professional equipment, all in one bundle"
+1672,protect iPad
+1673,connection Purpose
+1674,listen to music
+1675,smart room upgrade
+1676,professional computer peripherals
+1677,computer related
+1678,assembling a computer
+1679,Desktop assemblers
+1680,Make a PC build whit all the items
+1681,Adapter
+1682,LED
+1683,LED/LCD TV
+1684,cable and monitor
+1685,CREATRE A DIPLAY UNIT
+1686,carry their data with them in style
+1687,Accessories for ipad
+1688,TV/Electronic Wires
+1689,All items related to better use of tablet pc
+1690,Earbuds
+1691,Seems to be a complete set up for building a desktop computer. Just missing RAM and a graphics card if required. 
+1692,SMARTPHONE INPUT DEVICES
+1693,Laptop
+1694,Buying and upgrading a laptop
+1695,"home, work office, online"
+1696,Externals
+1697,photographer
+1698,These items can all be used with a camera/camera equipment such as lighting etc.
+1699,install car cd player
+1700,They have a sterio and a frame for the serio then a tv.
+1701,Wifi related
+1702,Home entertainment system
+1703,TV media 
+1704,navigation
+1705,Gaming
+1706,very nice one
+1707,they are all electronic items. thank you
+1708,accessorising digital camera
+1709,Digital camera bundle
+1710,different headphones
+1711,computer related
+1712,Photography
+1713,Canon camera setup
+1714,camera accessories
+1715,Photography hardware
+1716,similar products and for various accessories and related to each other
+1717,audio devices
+1718,Lighting for professional shootings
+1719,Digital Photography
+1720,have reliable audio peripherals with your ipad
+1721,headphones
+1722,MOBILE PHONE
+1723,ipad keyboard
+1724,Smartphone screen protector
+1725,Adapters for electronic data transfer.
+1726,HDD and Accessories
+1727,Apple product compatibility
+1728,Speakers connection/use relation to device's output experience for humans
+1729,Audio
+1730,External hard drive
+1731,music player
+1732,computer
+1733,audio amplifier
+1734,tablet cover
+1735,laptop case
+1736,monitor and accessories
+1737,Photograph studio / set / photoshoot
+1738,Computer or Laptop accessories
+1739,Network devices
+1740,Adaptors
+1741,Equipment used to set up projector 
+1742,for making a desktop pc
+1743,Computer peripherals
+1744,photography
+1745,nice
+1746,camera and accessories
+1747,camera and accessories
+1748,different sd cards
+1749,camera accessories
