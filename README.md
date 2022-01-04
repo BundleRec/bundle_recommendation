@@ -65,7 +65,8 @@ The dimension *d* of representations is set as 20. We apply a same grid search f
 | File Name | Descriptions |
 |-----------|--------------|
 | user_item_pretrain.csv| This file contains user-item interactions aiming to obtain the pre-trained item representations via BPRMF for model initialization.<br> This is a tab separated list: `user ID \| item ID \| timestamp \|`  
-<!--<br>The user IDs are the ones used in the `user_bundle.csv` and `user_item.csv` data sets. The item IDs are the ones used in the `user_item.csv`, `session_item.csv` and `item_categories.csv` data sets.-->|
+<!--<br>The user IDs are the ones used in the `user_bundle.csv` and `user_item.csv` data sets. The item IDs are the ones used in the `user_item.csv`, `session_item.csv` and `item_categories.csv` data sets.-->
+|
 | user_item.csv | This file contains the user-item interactions.<br> This is a tab separated list: `user ID \| item ID \| timestamp \|`  |
 | session_item.csv | This file contains the affiliation of session and its items. Each session has at least 2 items.<br> This is a tab separated list: `session ID \| item ID \|` <br>The session IDs are the ones used in the `session_bundle.csv` and `user_session.csv` data sets.  |
 | user_session.csv| This file contains the interaction of user and session.<br> This is a tab separated list: `user ID \| session ID \| timestamp \|`  |
