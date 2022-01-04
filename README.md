@@ -59,6 +59,7 @@ The dimension *d* of representations is set as 20. We apply a same grid search f
 | Density of User-Bundle Interactions | 0.11% | 0.10% | 0.11% |
 
 ### 6. Descriptions of Data Files
+Under the 'dataset' folder, there are three domains, including clothing, electronic and food. Each domain contains the following 9 data files.
 
 <p align="center">Table 4: The descriptions of the data files.</p>
 
