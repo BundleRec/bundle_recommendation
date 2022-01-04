@@ -60,7 +60,7 @@ The dimension *d* of representations is set as 20. We apply a same grid search f
 
 ### 6. Descriptions of Data Files
 
-<p align="center">Table 4: The brief descriptions of the data files.</p>
+<p align="center">Table 4: The descriptions of the data files.</p>
 
 | File Name | Descriptions |
 |-----------|--------------|
@@ -68,7 +68,7 @@ The dimension *d* of representations is set as 20. We apply a same grid search f
 | user_item.csv | This file contains the user-item interactions.<br> This is a tab separated list with three columns: `user ID \| item ID \| timestamp \|`  |
 | session_item.csv | This file contains sessions and their associated items. Each session has at least 2 items.<br> This is a tab separated list with two columns: `session ID \| item ID \|` <!--<br>The session IDs are the ones used in the `session_bundle.csv` and `user_session.csv` data sets.-->  |
 | user_session.csv| This file contains users and their associated sessions.<br> This is a tab separated list with three columns: `user ID \| session ID \| timestamp \|`  |
-| session_bundle.csv| This file contains sessions and their detected bundles. Each session has at least 1 bundle.<br> This is a tab separated list with two columns: `session ID \| bundle ID \|` <!--<br>The bundle IDs are the ones used in the `bundle_item.csv` ,`user_bundle.csv` and `bundle_intent.csv` data sets.--> <br>The session ID contained in the session_item.csv but not in session_bundle.csv indicate there is no bundle detected in this session. |
+| session_bundle.csv| This file contains sessions and their detected bundles. Each session has at least 1 bundle.<br> This is a tab separated list with two columns: `session ID \| bundle ID \|` <!--<br>The bundle IDs are the ones used in the `bundle_item.csv` ,`user_bundle.csv` and `bundle_intent.csv` data sets.--> <br>The session ID contained in the session_item.csv but not in session_bundle.csv indicates there is no bundle detected in this session. |
 | bundle_intent.csv | This file contains bundles and their annotated intents.<br> This is a tab separated list with two columns: `bundle ID \| intent \|`  |
 | bundle_item.csv | This file contains bundles and their associated items. Each bundle has at least 2 items.<br> This is a tab separated list with two columns: `bundle ID \| item ID \|` |
 | user_bundle.csv | This file contains the user-bundle interactions.<br> This is a tab separated list with three columns: `user ID \| bundle ID \| timestamp \|`  |
