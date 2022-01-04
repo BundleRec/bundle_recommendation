@@ -58,7 +58,7 @@ The dimension *d* of representations is set as 20. We apply a same grid search f
 | Density of User-Item Interactions | 0.20% | 0.15% | 0.19% |
 | Density of User-Bundle Interactions | 0.11% | 0.10% | 0.11% |
 
-### Detailed Descriptions of Data Files
+### 6. Descriptions of Data Files
 
 <p align="center">Table 4: The brief descriptions of the data files.</p>
 
