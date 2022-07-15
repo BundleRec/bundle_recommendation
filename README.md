@@ -10,7 +10,7 @@ Figure 1 shows the distribution of workers' age, education, country, occupation,
 <p align="center">Figure 1: Worker basic information in the first and second batches.</p>
 
 ### Feedback from Workers
-Figure 2 shows the feedback from workers for the two batches.
+Figure 2 visualizes worker feedback towards our task, where (a) shows the feedback regarding the difficulty on identifying bundles and naming the corresponding intents for the two batches; and (b-c) depict the general feedback for the two batches.
 
 <p align="center">
   <img src="img/worker_feedback.png" width="90%" height="90%">
