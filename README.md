@@ -12,6 +12,11 @@ Figure 1 shows the distribution of workers' age, education, country, occupation,
 ### Feedback from Workers
 Figure 2 shows the feedback from workers for the two batches.
 
+<p align="center">
+  <img src="img/worker_feedback.png" width="90%" height="90%">
+</p>
+<p align="center">Figure 2: Feedback from workers for the two batches.</p>
+
 
 ### Parameter Tuning and Settings for Bundle Detection
 A grid search in {0.0001, 0.001, 0.01} is applied to find out the optimal settings for *support* and *confidence*, and both are set as 0.001 across the three domains.
