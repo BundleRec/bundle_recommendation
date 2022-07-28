@@ -54,7 +54,7 @@ The dimension *d* of representations is set as 20. We apply a same grid search f
 ### Parameter Tuning and Settings for Bundle Generation Explanation
 For LSTM, BiLSTM and Transformer, learning rate ![](https://latex.codecogs.com/svg.image?\eta) is searched in {0.0001, 0.001, 0.01}; batch size is searched in {16, 32, 64}; the dimension of word embeddings is 300; the hidden size is searched in {128, 256, 512}; the number of heads in Transformer *nhead* is searched in the range of [1, 8] with a step of 1; the number of encoder/decoder layers is searched in {1, 2, 3, 4}. For pre-trained models: BertGeneration, BART-*base* and T5-*base*, learning rate ![](https://latex.codecogs.com/svg.image?\eta) is searched in {0.00002, 0.00005, 0.00007, 0.0001}; the number of epochs is searched in {3, 4, 5}; the maximum  length in encoder is set to 512, and the maximum length in decoder is set to 64. The optimal parameter settings are shown in Table 3. 
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table 3: Parameter settings for bundle generation explanation.
+&emsp;&emsp;Table 3: Parameter settings for bundle generation explanation.
 
 |  | All domains|
 | :------: | :------: | 
@@ -69,7 +69,7 @@ For LSTM, BiLSTM and Transformer, learning rate ![](https://latex.codecogs.com/s
 For EM, we apply a grid search in {0.0001, 0.001, 0.01, 0.1} for *support* and *confidence*, {1, 2, 3, 4} for *lift* to find out the optimal settings. For EFM, regularization coefficient ![](https://latex.codecogs.com/svg.image?\lambda_{x}) and ![](https://latex.codecogs.com/svg.image?\lambda_{y}) are searched in the range of (0, 1] with a step of 0.1, while ![](https://latex.codecogs.com/svg.image?\lambda_{u}), ![](https://latex.codecogs.com/svg.image?\lambda_{h}) and ![](https://latex.codecogs.com/svg.image?\lambda_{v}) are searched in {0.0001, 0.001, 0.01, 0.1}; total number of factors *r* is searched from {20, 50, 100}; ratio of explicit factors ![](https://latex.codecogs.com/svg.image?r_e) is searched in a range of [0, 1] with a step of 0.1; the number of most cared features *k* in searched from [10, 100] with a step of 10. For PGPR and KGAT, we apply the same grid search for ![](https://latex.codecogs.com/svg.image?\lambda), batch size, the node and message dropout rate in bundle ranking; the dimension *d* of representations is searched in {20, 50, 100}; the action space and the weight of entropy loss for PGPR are searched in {100, 200, 300} and {0.0001, 0.001, 0.01} respectively; the regularization coefficient ![](https://latex.codecogs.com/svg.image?\lambda) for KGAT is searched from {0.0001, 0.001, 0.01, 0.1}. The optimal parameter settings are shown in Table 4. 
 
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table 4: Parameter settings for bundle ranking explanation.
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table 4: Parameter settings for bundle ranking explanation.
 
 |  | Electronic | Clothing | Food |
 | :------: | :------: | :------: | :------: |
