@@ -58,9 +58,9 @@ For LSTM, BiLSTM and Transformer, the dimension of word embeddings is 300; learn
 
 |  | Optimal Parameter Settings|
 | :------: | :------: | 
-| LSTM | ![equation](https://latex.codecogs.com/svg.image?\eta=0.001,batch\\_size=64,hidden\\_size=512)<br>![equation](https://latex.codecogs.com/svg.image?encoder/decoder_layers=2)| 
-| BiLSTM | ![equation](https://latex.codecogs.com/svg.image?\eta=0.001,batch\\_size=64,hidden\\_size=512) <br>![equation](https://latex.codecogs.com/svg.image?encoder/decoder_layers=2)|
-| Transformer| ![equation](https://latex.codecogs.com/svg.image?\eta=0.0001,batch\\_size=16,hidden\\_size=512) <br>![equation](https://latex.codecogs.com/svg.image?nhead=6,encoder/decoder_layers=3)| 
+| LSTM | ![equation](https://latex.codecogs.com/svg.image?\eta=0.001,batch\\_size=64,hidden\\_size=512)<br>![equation](https://latex.codecogs.com/svg.image?encoder/decoder\\_layers=2)| 
+| BiLSTM | ![equation](https://latex.codecogs.com/svg.image?\eta=0.001,batch\\_size=64,hidden\\_size=512) <br>![equation](https://latex.codecogs.com/svg.image?encoder/decoder\\_layers=2)|
+| Transformer| ![equation](https://latex.codecogs.com/svg.image?\eta=0.0001,batch\\_size=16,hidden\\_size=512) <br>![equation](https://latex.codecogs.com/svg.image?nhead=6,encoder/decoder\\_layers=3)| 
 | BertGeneration | ![equation](https://latex.codecogs.com/svg.image?\eta=0.00007,batch\\_size=4,epochs=4)| 
 | BART-base | ![equation](https://latex.codecogs.com/svg.image?\eta=0.00002,batch\\_size=4,epochs=3)| 
 | T5-base | ![equation](https://latex.codecogs.com/svg.image?\eta=0.00007,batch\\_size=4,epochs=3)| 
