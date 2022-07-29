@@ -2,14 +2,14 @@
 This project aims to provide new data sources for product bundling in real e-commerce platforms with the domains of Electronic, Clothing and Food. We construct three high-quality bundle datasets with rich meta information, particularly bundle intents, through a carefully designed crowd-sourcing task.
 
 
-### Worker Basic Information
+### 1. Worker Basic Information
 Figure 1 shows the distribution of workers' age, education, country, occupation, gender and shopping frequency for the two batches. In particular, `Others' in the country distribution includes Argentina, Australia, Anguilla, Netherlands, Albania, Georgia, Tunisia, Belgium, Armenia, Guinea, Austria, Switzerland, Iceland, Lithuania, Egypt, Venezuela, Bangladesh, American Samoa, Vanuatu, Colombia, United Arab Emirates, Ashmore and Cartier Island, Estados Unidos, Wales, Turkey, Angola, Scotland, Philippines, Iran and Bahamas.
 
 
 ![basic_information](img/worker_basic_information.png)
 <p align="center">Figure 1: Worker basic information in the first and second batches.</p>
 
-### Feedback from Workers
+### 2. Feedback from Workers
 Figure 2 visualizes worker feedback towards our task, where (a) shows the feedback regarding the difficulty on identifying bundles and naming the corresponding intents for the two batches; and (b-c) depict the general feedback for the two batches.
 
 <p align="center">
@@ -18,11 +18,11 @@ Figure 2 visualizes worker feedback towards our task, where (a) shows the feedba
 <p align="center">Figure 2: Feedback from workers for the two batches.</p>
 
 
-### Parameter Tuning and Settings for Bundle Detection
+### 3. Parameter Tuning and Settings for Bundle Detection
 A grid search in {0.0001, 0.001, 0.01} is applied to find out the optimal settings for *support* and *confidence*, and both are set as 0.001 across the three domains.
 
 
-### Parameter Tuning and Settings for Bundle Completion
+### 4. Parameter Tuning and Settings for Bundle Completion
 The dimension *d* of item and bundle representations for all methods is 20. Grid search is adopted to find out the best settings for other key parameters. In particular, learning rate ![](https://latex.codecogs.com/svg.image?\eta)  and regularization coefficient ![](https://latex.codecogs.com/svg.image?\lambda)  are searched in {0.0001, 0.001, 0.01}; the number of neighbors *K* in ItemKNN is searched in {10, 20, 30, 50}; the weight of KL divergence ![](https://latex.codecogs.com/svg.image?\alpha) in VAE is searched in {0.001, 0.01, 0.1}; and the batch size is searched in {64, 128, 256}. The optimal parameter settings are shown in Table 1. 
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table 1: Parameter settings for bundle completion (*d=20*).
@@ -35,7 +35,7 @@ The dimension *d* of item and bundle representations for all methods is 20. Grid
 | concat-VAE | ![equation](https://latex.codecogs.com/svg.image?\eta=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.01)<br>![equation](https://latex.codecogs.com/svg.image?\alpha=0.001)<br>![equation](https://latex.codecogs.com/svg.image?hid\\_layers=[100,50])<br>![equation](https://latex.codecogs.com/svg.image?dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=128) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.001)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.001)<br>![equation](https://latex.codecogs.com/svg.image?\alpha=0.1)<br>![equation](https://latex.codecogs.com/svg.image?hid\\_layers=[100,50])<br>![equation](https://latex.codecogs.com/svg.image?dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=64) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?\alpha=0.001)<br>![equation](https://latex.codecogs.com/svg.image?hid\\_layers=[100,50])<br>![equation](https://latex.codecogs.com/svg.image?dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=64) |
 
 
-### Parameter Tuning and Settings for Bundle Ranking {#b-ranking}
+### 5. Parameter Tuning and Settings for Bundle Ranking {#b-ranking}
 The dimension *d* of representations is set as 20. We apply a same grid search for ![](https://latex.codecogs.com/svg.image?\eta), ![](https://latex.codecogs.com/svg.image?\lambda), ![](https://latex.codecogs.com/svg.image?K) and batch size as in bundle completion. Besides, the predictive layer *D* for AttList is searched from {20, 50, 100}; the node and message dropout rate for GCN and BGCN is searched in {0, 0.1, 0.3, 0.5}. As the training complexity for GCN and BGCN is quite high, we set the batch size as 2048 as suggested by the original paper. The optimal parameter settings are presented in Table 2. Note that the parameter settings for BGCN is the version without pre-training (i.e. ![](https://latex.codecogs.com/svg.image?BGCN_%7Bw/o%5C%20pre%7D)). 
 
 
@@ -51,7 +51,7 @@ The dimension *d* of representations is set as 20. We apply a same grid search f
 | BGCN | ![equation](https://latex.codecogs.com/svg.image?\eta=0.001)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.001)<br>![equation](https://latex.codecogs.com/svg.image?neg\\_sample=1)<br>![equation](https://latex.codecogs.com/svg.image?msg\\_dropout=0.1)<br>![equation](https://latex.codecogs.com/svg.image?node\\_dropout=0)<br>![equation](https://latex.codecogs.com/svg.image?prop\\_layers=2)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=2048) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.001)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?neg\\_sample=1)<br>![equation](https://latex.codecogs.com/svg.image?msg\\_dropout=0)<br>![equation](https://latex.codecogs.com/svg.image?node\\_dropout=0)<br>![equation](https://latex.codecogs.com/svg.image?prop\\_layers=2)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=2048) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.01)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.001)<br>![equation](https://latex.codecogs.com/svg.image?neg\\_sample=1)<br>![equation](https://latex.codecogs.com/svg.image?msg\\_dropout=0.1)<br>![equation](https://latex.codecogs.com/svg.image?node\\_dropout=0.1)<br>![equation](https://latex.codecogs.com/svg.image?prop\\_layers=2)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=2048) |
 
 
-### Parameter Tuning and Settings for Bundle Generation Explanation
+### 6. Parameter Tuning and Settings for Bundle Generation Explanation
 For LSTM, BiLSTM and Transformer, learning rate ![](https://latex.codecogs.com/svg.image?\eta) is searched in {0.0001, 0.001, 0.01}; batch size is searched in {16, 32, 64}; the dimension of word embeddings is 300; the hidden size is searched in {128, 256, 512}; the number of heads in Transformer *nhead* is searched in the range of [1, 8] with a step of 1; the number of encoder/decoder layers is searched in {1, 2, 3, 4}. For pre-trained models: BertGeneration, BART-*base* and T5-*base*, learning rate ![](https://latex.codecogs.com/svg.image?\eta) is searched in {0.00002, 0.00005, 0.00007, 0.0001}; the number of epochs is searched in {3, 4, 5}; the maximum  length in encoder is set to 512, and the maximum length in decoder is set to 64. The optimal parameter settings are shown in Table 3. 
 
 &emsp;&emsp;Table 3: Parameter settings for bundle generation explanation.
@@ -65,7 +65,7 @@ For LSTM, BiLSTM and Transformer, learning rate ![](https://latex.codecogs.com/s
 | BART-*base* | ![equation](https://latex.codecogs.com/svg.image?\eta=0.00002,batch\\_size=4,epochs=3)| 
 | T5-*base* | ![equation](https://latex.codecogs.com/svg.image?\eta=0.00007,batch\\_size=4,epochs=3)| 
 
-### Parameter Tuning and Settings for Bundle Ranking Explanation
+### 7. Parameter Tuning and Settings for Bundle Ranking Explanation
 For EM, we apply a grid search in {0.0001, 0.001, 0.01, 0.1} for *support* and *confidence*, {1, 2, 3, 4} for *lift* to find out the optimal settings. For EFM, regularization coefficient ![](https://latex.codecogs.com/svg.image?\lambda_{x}) and ![](https://latex.codecogs.com/svg.image?\lambda_{y}) are searched in the range of (0, 1] with a step of 0.1, while ![](https://latex.codecogs.com/svg.image?\lambda_{u}), ![](https://latex.codecogs.com/svg.image?\lambda_{h}) and ![](https://latex.codecogs.com/svg.image?\lambda_{v}) are searched in {0.0001, 0.001, 0.01, 0.1}; total number of factors *r* is searched from {20, 50, 100}; ratio of explicit factors ![](https://latex.codecogs.com/svg.image?r_e) is searched in a range of [0, 1] with a step of 0.1; the number of most cared features *k* in searched from [10, 100] with a step of 10. For PGPR and KGAT, we apply the same grid search for ![](https://latex.codecogs.com/svg.image?\lambda), batch size, the node and message dropout rate in bundle ranking; the dimension *d* of representations is searched in {20, 50, 100}; the action space and the weight of entropy loss for PGPR are searched in {100, 200, 300} and {0.0001, 0.001, 0.01} respectively; the regularization coefficient ![](https://latex.codecogs.com/svg.image?\lambda) for KGAT is searched from {0.0001, 0.001, 0.01, 0.1}. The optimal parameter settings are shown in Table 4. 
 
 
@@ -80,7 +80,7 @@ For EM, we apply a grid search in {0.0001, 0.001, 0.01, 0.1} for *support* and *
 
 
 
-### Statistics of Datasets
+### 8. Statistics of Datasets
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table 5: Statistics of datasets.
 
@@ -97,7 +97,7 @@ For EM, we apply a grid search in {0.0001, 0.001, 0.01, 0.1} for *support* and *
 | Density of User-Item Interactions | 0.20% | 0.15% | 0.19% |
 | Density of User-Bundle Interactions | 0.11% | 0.10% | 0.11% |
 
-### Descriptions of Data Files
+### 9. Descriptions of Data Files
 Under the 'dataset' folder, there are three domains, including clothing, electronic and food. Each domain contains the following 9 data files.
 
 <p align="center">Table 6: The descriptions of the data files.</p>
