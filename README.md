@@ -113,6 +113,7 @@ Under the 'dataset' folder, there are three domains, including clothing, electro
 | bundle_item.csv | This file contains bundles and their associated items. Each bundle has at least 2 items.<br> This is a tab separated list with 2 columns: `bundle ID \| item ID \|` |
 | user_bundle.csv | This file contains the user-bundle interactions.<br> This is a tab separated list with 3 columns: `user ID \| bundle ID \| timestamp \|`  |
 | item_categories.csv| This file contains items and their affiliated categories.<br> This is a tab separated list with 2 columns: `item ID \| categories \|`  <br> The format of data in `categories` column is a list of string. |
+| item_idx_mapping.csv| This file contains items and their source ID in Amazon datasets.<br> This is a tab separated list with 2 columns: `item ID \| source ID \|`  |
 
 
 
