@@ -33,3 +33,4 @@ Table 2 shows brief descriptions of the data files.
 | user_bundle.csv | This file contains the interaction of user and bundle.<br> This is a tab separated list: `user ID \| bundle ID \| timestamp \|`  |
 | item_categories.csv| This file contains item and its categories.<br> This is a tab separated list: `item ID \| categories \|` <br> The format of data in `categories` column is a list of string. |
 | item_idx_mapping.csv| This file contains items and their source ID in Amazon datasets.<br> This is a tab separated list with 2 columns: `item ID \| source ID \|`  |
+| user_idx_mapping.csv| This file contains users and their source ID in Amazon datasets.<br> This is a tab separated list with 2 columns: `user ID \| source ID \|`  |
