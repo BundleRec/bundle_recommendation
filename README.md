@@ -81,7 +81,7 @@ For RM, we apply a grid search in {0.0001, 0.001, 0.01, 0.1} for *support* and *
 ### 8. Parameter Tuning and Settings for Bundle Auto-Naming
 For the ImageCap model, the maximum length in decoder is set to 64; learning rate ![](https://latex.codecogs.com/svg.image?\eta) is searched in {0.00002, 0.00005, 0.00007, 0.0001}; the number of epochs is searched in {3, 4, 5}. The optimal parameter settings are shown in Table 5. 
 
-&emsp;&emsp;Table 5: Parameter settings for bundle generation explanation.
+&emsp;Table 5: Parameter settings for bundle generation explanation.
 
 |  | Optimal Parameter Settings|
 | :------: | :------: | 
