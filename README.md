@@ -78,11 +78,19 @@ For RM, we apply a grid search in {0.0001, 0.001, 0.01, 0.1} for *support* and *
 | PGPR | ![equation](https://latex.codecogs.com/svg.image?\eta=0.001)<br>![equation](https://latex.codecogs.com/svg.image?d=50)<br>![equation](https://latex.codecogs.com/svg.image?ent\\_weight=0.001)<br>![equation](https://latex.codecogs.com/svg.image?act\\_space=300)<br>![equation](https://latex.codecogs.com/svg.image?dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?K_1=20,K_2=5,K_3=1)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=64) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?d=100)<br>![equation](https://latex.codecogs.com/svg.image?ent\\_weight=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?act\\_space=300)<br>![equation](https://latex.codecogs.com/svg.image?dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?K_1=25,K_2=5,K_3=1)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=128)  | ![equation](https://latex.codecogs.com/svg.image?\eta=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?d=100)<br>![equation](https://latex.codecogs.com/svg.image?ent\\_weight=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?act\\_space=200)<br>![equation](https://latex.codecogs.com/svg.image?dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?K_1=20,K_2=5,K_3=1)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=64)  |
 | KGAT | ![equation](https://latex.codecogs.com/svg.image?\eta=0.01)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?d=50)<br>![equation](https://latex.codecogs.com/svg.image?msg\\_dropout=0.8)<br>![equation](https://latex.codecogs.com/svg.image?node\\_dropout=0)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=64) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.01)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?d=50)<br>![equation](https://latex.codecogs.com/svg.image?msg\\_dropout=0.1)<br>![equation](https://latex.codecogs.com/svg.image?node\\_dropout=0.3)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=64) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.01)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?d=50)<br>![equation](https://latex.codecogs.com/svg.image?msg\\_dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?node\\_dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=64) |
 
+### 8. Parameter Tuning and Settings for Bundle Auto-Naming
+For the ImageCap model, the maximum length in decoder is set to 64; learning rate ![](https://latex.codecogs.com/svg.image?\eta) is searched in {0.00002, 0.00005, 0.00007, 0.0001}; the number of epochs is searched in {3, 4, 5}. The optimal parameter settings are shown in Table 5. 
+
+&emsp;&emsp;Table 5: Parameter settings for bundle generation explanation.
+
+|  | Optimal Parameter Settings|
+| :------: | :------: | 
+| ImageCap | ![equation](https://latex.codecogs.com/svg.image?\eta=0.00005,batch\\_size=4,epochs=3)| 
 
 
-### 8. Statistics of Datasets
+### 9. Statistics of Datasets
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table 5: Statistics of datasets.
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table 6: Statistics of datasets.
 
 |      | Electronic | Clothing | Food |
 |:------|:------------:|:----------:|:------:|
@@ -97,10 +105,10 @@ For RM, we apply a grid search in {0.0001, 0.001, 0.01, 0.1} for *support* and *
 | Density of User-Item Interactions | 0.20% | 0.15% | 0.19% |
 | Density of User-Bundle Interactions | 0.11% | 0.10% | 0.11% |
 
-### 9. Descriptions of Data Files
+### 10. Descriptions of Data Files
 Under the 'dataset' folder, there are three domains, including clothing, electronic and food. Each domain contains the following 9 data files.
 
-<p align="center">Table 6: The descriptions of the data files.</p>
+<p align="center">Table 7: The descriptions of the data files.</p>
 
 | File Name | Descriptions |
 |-----------|--------------|
