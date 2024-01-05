@@ -129,7 +129,7 @@ Under the 'dataset' folder, there are three domains, including clothing, electro
 
 ### Cite
 
-Please cite the following paper if you use **Our dataset** in a research paper:
+Please cite the following paper if you use **our dataset** in a research paper:
 
 ```
 @inproceedings{sun2022revisiting,
