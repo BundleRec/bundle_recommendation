@@ -23,7 +23,7 @@ A grid search in {0.0001, 0.001, 0.01} is applied to find out the optimal settin
 
 
 ### 4. Parameter Tuning and Settings for Bundle Completion
-The dimension *d* of item and bundle representations for all methods is 20. Grid search is adopted to find out the best settings for other key parameters. In particular, learning rate ![](https://latex.codecogs.com/svg.image?\eta)  and regularization coefficient ![](https://latex.codecogs.com/svg.image?\lambda)  are searched in {0.0001, 0.001, 0.01}; the number of neighbors *K* in ItemKNN is searched in {10, 20, 30, 50}; the weight of KL divergence ![](https://latex.codecogs.com/svg.image?\alpha) in VAE is searched in {0.001, 0.01, 0.1}; and the batch size is searched in {64, 128, 256}. The optimal parameter settings are shown in Table 1. 
+The dimension *d* of item and bundle representations for all methods is 20. Grid search is adopted to find out the best settings for other key parameters. In particular, learning rate ![](https://latex.codecogs.com/svg.image?\eta)  and regularization coefficient ![](https://latex.codecogs.com/svg.image?\lambda)  are searched in {0.0001, 0.001, 0.01}; the number of neighbors *K* in ItemKNN is searched in {10, 20, 30, 50}; the weight of KL divergence ![](https://latex.codecogs.com/svg.image?\alpha) in VAE is searched in {0.001, 0.01, 0.1}; and the batch size is searched in {64, 128, 256}. The number of heads (i.e., *n_heads*) for TSF is searched in {1,2,4}. The number of layers for TSF is searched in {1,2,3}. The optimal parameter settings are shown in Table 1. 
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table 1: Parameter settings for bundle completion (*d=20*).
 
@@ -33,6 +33,7 @@ The dimension *d* of item and bundle representations for all methods is 20. Grid
 | BPRMF | ![equation](https://latex.codecogs.com/svg.image?\eta=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.001)<br>![equation](https://latex.codecogs.com/svg.image?neg\\_sample=2)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=128) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.01)<br>![equation](https://latex.codecogs.com/svg.image?neg\\_sample=2)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=128) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.01)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.01)<br>![equation](https://latex.codecogs.com/svg.image?neg\\_sample=2)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=128) |
 | mean-VAE | ![equation](https://latex.codecogs.com/svg.image?\eta=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.001)<br>![equation](https://latex.codecogs.com/svg.image?\alpha=0.01)<br>![equation](https://latex.codecogs.com/svg.image?hid\\_layers=[100,50])<br>![equation](https://latex.codecogs.com/svg.image?dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=64) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?\alpha=0.001)<br>![equation](https://latex.codecogs.com/svg.image?hid\\_layers=[100,50])<br>![equation](https://latex.codecogs.com/svg.image?dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=128) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.001)<br>![equation](https://latex.codecogs.com/svg.image?\alpha=0.001)<br>![equation](https://latex.codecogs.com/svg.image?hid\\_layers=[100,50])<br>![equation](https://latex.codecogs.com/svg.image?dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=64) |
 | concat-VAE | ![equation](https://latex.codecogs.com/svg.image?\eta=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.01)<br>![equation](https://latex.codecogs.com/svg.image?\alpha=0.001)<br>![equation](https://latex.codecogs.com/svg.image?hid\\_layers=[100,50])<br>![equation](https://latex.codecogs.com/svg.image?dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=128) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.001)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.001)<br>![equation](https://latex.codecogs.com/svg.image?\alpha=0.1)<br>![equation](https://latex.codecogs.com/svg.image?hid\\_layers=[100,50])<br>![equation](https://latex.codecogs.com/svg.image?dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=64) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?\lambda=0.0001)<br>![equation](https://latex.codecogs.com/svg.image?\alpha=0.001)<br>![equation](https://latex.codecogs.com/svg.image?hid\\_layers=[100,50])<br>![equation](https://latex.codecogs.com/svg.image?dropout=0.5)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=64) |
+| TSF | ![equation](https://latex.codecogs.com/svg.image?\eta=0.001)<br>![equation](https://latex.codecogs.com/svg.image?n\\_heads=2)<br>![equation](https://latex.codecogs.com/svg.image?layers=1)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=64)|![equation](https://latex.codecogs.com/svg.image?\eta=0.001)<br>![equation](https://latex.codecogs.com/svg.image?n\\_heads=1)<br>![equation](https://latex.codecogs.com/svg.image?layers=1)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=128) | ![equation](https://latex.codecogs.com/svg.image?\eta=0.001)<br>![equation](https://latex.codecogs.com/svg.image?n\\_heads=1)<br>![equation](https://latex.codecogs.com/svg.image?layers=2)<br>![equation](https://latex.codecogs.com/svg.image?batch\\_size=128)|
 
 
 ### 5. Parameter Tuning and Settings for Bundle Ranking
@@ -52,7 +53,7 @@ The dimension *d* of representations is set as 20. We apply a same grid search f
 
 
 ### 6. Parameter Tuning and Settings for Bundle Generation Explanation
-For LSTM, BiLSTM and Transformer, the dimension of word embeddings is 300; learning rate ![](https://latex.codecogs.com/svg.image?\eta) is searched in {0.0001, 0.001, 0.01}; batch size is searched in {16, 32, 64};  the hidden size is searched in {128, 256, 512}; the number of heads (i.e., *n_heads*) for Transformer is searched in the range of [1, 8] stepped by 1; the number of encoder/decoder layers is searched in {1, 2, 3, 4}. For the pre-trained models, i.e., BertGeneration, BART-base and T5-base, the maximum length in encoder is set to 512, and the maximum length in decoder is set to 64; learning rate ![](https://latex.codecogs.com/svg.image?\eta) is searched in {0.00002, 0.00005, 0.00007, 0.0001}; the number of epochs is searched in {3, 4, 5}. The optimal parameter settings are shown in Table 3. 
+For LSTM, BiLSTM and Transformer, the dimension of word embeddings is 300; learning rate ![](https://latex.codecogs.com/svg.image?\eta) is searched in {0.0001, 0.001, 0.01}; batch size is searched in {16, 32, 64};  the hidden size is searched in {128, 256, 512}; the number of heads (i.e., *nhead*) for Transformer is searched in the range of [1, 8] stepped by 1; the number of encoder/decoder layers is searched in {1, 2, 3, 4}. For the pre-trained models, i.e., BertGeneration, BART-base and T5-base, the maximum length in encoder is set to 512, and the maximum length in decoder is set to 64; learning rate ![](https://latex.codecogs.com/svg.image?\eta) is searched in {0.00002, 0.00005, 0.00007, 0.0001}; the number of epochs is searched in {3, 4, 5}. The optimal parameter settings are shown in Table 3. 
 
 &emsp;&emsp;Table 3: Parameter settings for bundle generation explanation.
 
@@ -126,8 +127,19 @@ Under the 'dataset' folder, there are three domains, including clothing, electro
 | user_idx_mapping.csv| This file contains users and their source ID in Amazon datasets.<br> This is a tab separated list with 2 columns: `user ID \| source ID \|`  |
 
 
+## Cite
 
+Please cite the following paper if you use **Our dataset** in a research paper:
 
+```
+@inproceedings{sun2022revisiting,
+  title={Revisiting Bundle Recommendation: Datasets, Tasks, Challenges and Opportunities for Intent-Aware Product Bundling},
+  author={Sun, Zhu and Yang, Jie and Feng, Kaidong and Fang, Hui and Qu, Xinghua and Ong, Yew Soon},
+  booktitle={Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year={2022}
+}
+
+```
 
 
 
