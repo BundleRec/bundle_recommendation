@@ -127,7 +127,7 @@ Under the 'dataset' folder, there are three domains, including clothing, electro
 | user_idx_mapping.csv| This file contains users and their source ID in Amazon datasets.<br> This is a tab separated list with 2 columns: `user ID \| source ID \|`  |
 
 
-## Cite
+### Cite
 
 Please cite the following paper if you use **Our dataset** in a research paper:
 
