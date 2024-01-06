@@ -21,8 +21,8 @@ Figure 2 visualizes worker feedback towards our task, where (a) shows the feedba
 ### 3. Bundle Detection
 
 #### Source code
-- Pattern Mining
-  - Please refer to [code](code/bundle%20detection/readme.md)
+- **Pattern Mining** ([code](code/bundle%20detection/readme.md))
+
 #### Parameter Settings
 A grid search in {0.0001, 0.001, 0.01} is applied to find out the optimal settings for *support* and *confidence*, and both are set as 0.001 across the three domains.
 
@@ -30,12 +30,12 @@ A grid search in {0.0001, 0.001, 0.01} is applied to find out the optimal settin
 ### 4. Bundle Completion
 
 #### Source code
-- **ItemKNN & BPRMF**
-  - Please refer to [code](https://github.com/recsys-benchmark/DaisyRec-v2.0)
-- **Mean-VAE & Concat-VAE**
-  - Please refer to [code](/code/bundle%20completion/readme.md)
-- **TSF**
-  - Please refer to [code](/code/bundle%20completion/readme.md)
+- **ItemKNN & BPRMF** ([code](https://github.com/recsys-benchmark/DaisyRec-v2.0))
+
+- **Mean-VAE & Concat-VAE** ([code](/code/bundle%20completion/readme.md))
+
+- **TSF** ([code](/code/bundle%20completion/readme.md))
+
 
 #### Parameter Settings
 The dimension *d* of item and bundle representations for all methods is 20. Grid search is adopted to find out the best settings for other key parameters. In particular, learning rate ![](https://latex.codecogs.com/svg.image?\eta)  and regularization coefficient ![](https://latex.codecogs.com/svg.image?\lambda)  are searched in {0.0001, 0.001, 0.01}; the number of neighbors *K* in ItemKNN is searched in {10, 20, 30, 50}; the weight of KL divergence ![](https://latex.codecogs.com/svg.image?\alpha) in VAE is searched in {0.001, 0.01, 0.1}; the hidden layer sizes ![](https://latex.codecogs.com/svg.image?hid\\_layers) are searched in {50,100,200}; The batch size is searched in {64, 128, 256}. The number of heads (i.e., *n_heads*) for TSF is searched in {1,2,4}. The number of layers for TSF is searched in {1,2,3}. The optimal parameter settings are shown in Table 1. 
@@ -54,14 +54,14 @@ The dimension *d* of item and bundle representations for all methods is 20. Grid
 ### 5. Bundle Ranking
 
 #### Source code
-- **ItemKNN & BPRMF**
-  - Please refer to [code](https://github.com/recsys-benchmark/DaisyRec-v2.0)
-- **DAM**
-  - Please refer to [code](https://github.com/yliuSYSU/DAM)
-- **AttList**
-  - Please refer to [code](https://github.com/heyunh2015/AttList)
-- **GCN & BGCN**
-  - Please refer to [code](https://github.com/cjx0525/BGCN)
+- **ItemKNN & BPRMF** ([code](https://github.com/recsys-benchmark/DaisyRec-v2.0))
+
+- **DAM** ([code](https://github.com/yliuSYSU/DAM))
+
+- **AttList** ([code](https://github.com/heyunh2015/AttList))
+
+- **GCN & BGCN** ([code](https://github.com/cjx0525/BGCN))
+
 #### Parameter Settings
 The dimension *d* of representations is set as 20. We apply a same grid search for ![](https://latex.codecogs.com/svg.image?\eta), ![](https://latex.codecogs.com/svg.image?\lambda), ![](https://latex.codecogs.com/svg.image?K) and batch size as in bundle completion. Besides, the predictive layer *D* for AttList is searched from {20, 50, 100}; the node and message dropout rate for GCN and BGCN is searched in {0, 0.1, 0.3, 0.5}. As the training complexity for GCN and BGCN is quite high, we set the batch size as 2048 as suggested by the original paper. The optimal parameter settings are presented in Table 2. Note that the parameter settings for BGCN is the version without pre-training (i.e. ![](https://latex.codecogs.com/svg.image?BGCN_%7Bw/o%5C%20pre%7D)). 
 
@@ -99,14 +99,14 @@ For LSTM, BiLSTM and Transformer, the dimension of word embeddings is 300; learn
 ### 7. Bundle Ranking Explanation
 
 #### Source code
-- **RM**
-  - Please refer to [code](/code/bundle%20ranking%20explanation/readme.md)
-- **EFM**
-  - Please refer to [code](/code/bundle%20ranking%20explanation/readme.md)
-- **PGPR**
-  - Please refer to [code](https://github.com/orcax/PGPR)
-- **KGAT**
-  - Please refer to [code](https://github.com/xiangwang1223/knowledge_graph_attention_network)
+- **RM** ([code](/code/bundle%20ranking%20explanation/readme.md))
+
+- **EFM** ([code](/code/bundle%20ranking%20explanation/readme.md))
+
+- **PGPR** ([code](https://github.com/orcax/PGPR))
+
+- **KGAT** ([code](https://github.com/xiangwang1223/knowledge_graph_attention_network))
+
 #### Parameter Settings
 For RM, we apply a grid search in {0.0001, 0.001, 0.01, 0.1} for *support* and *confidence*; and a grid search in {1, 2, 3, 4} for *lift* to find out their optimal settings. For EFM, the regularization coefficients ![](https://latex.codecogs.com/svg.image?\lambda_{x}) and ![](https://latex.codecogs.com/svg.image?\lambda_{y}) are searched in the range of (0, 1] with a step of 0.1, while ![](https://latex.codecogs.com/svg.image?\lambda_{u}), ![](https://latex.codecogs.com/svg.image?\lambda_{h}) and ![](https://latex.codecogs.com/svg.image?\lambda_{v}) are searched in {0.0001, 0.001, 0.01, 0.1}; the total number of factors *r* is searched from {20, 50, 100}; the ratio of explicit factors ![](https://latex.codecogs.com/svg.image?r_e) is searched in a range of [0, 1] with a step of 0.1; the number of most cared features *k* in searched from [10, 100] with a step of 10. For PGPR and KGAT, we apply the same grid search for ![](https://latex.codecogs.com/svg.image?\eta), batch size, the node and message dropout rate as in bundle ranking; the dimension of representations (*d*) is searched in {20, 50, 100}; the action space and the weight of entropy loss for PGPR are searched in {100, 200, 300} and {0.0001, 0.001, 0.01}, respectively; the sampling sizes at the 3 steps (i.e., ![equation](https://latex.codecogs.com/svg.image?K_1,K_2,K_3)) for PGPR are searched in {20, 25, 30}, {5, 10, 15} and {1}, respectively; and the regularization coefficient ![](https://latex.codecogs.com/svg.image?\lambda) for KGAT is searched from {0.0001, 0.001, 0.01, 0.1}. The optimal parameter settings are shown in Table 4. 
 
