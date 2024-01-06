@@ -100,7 +100,7 @@ For LSTM, BiLSTM and Transformer, the dimension of word embeddings is 300; learn
 ### 7. Bundle Ranking Explanation
 
 #### Source code
-- **RM** ([code](/code/bundle%20ranking%20explanation/readme.md))
+- **RM** ([code](/code/bundle%20ranking%20explanation/RuleMining.ipynb))
 
 - **EFM** ([code](https://github.com/guoguibing/librec/blob/3.0.0/core/src/main/java/net/librec/recommender/content/EFMRecommender.java))
 
