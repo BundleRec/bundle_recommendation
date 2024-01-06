@@ -82,7 +82,7 @@ The dimension *d* of representations is set as 20. We apply a same grid search f
 ### 6. Bundle Generation Explanation
 
 #### Source code
-Please refer to [code](/code/bundle%20generation%20explanation/readme.md)
+Please refer to [code](/code/bundle%20generation%20explanation/T5.ipynb)
 #### Parameter Settings
 For LSTM, BiLSTM and Transformer, the dimension of word embeddings is 300; learning rate ![](https://latex.codecogs.com/svg.image?\eta) is searched in {0.0001, 0.001, 0.01}; batch size is searched in {16, 32, 64};  the hidden size is searched in {128, 256, 512}; the number of heads (i.e., *nhead*) for Transformer is searched in the range of [1, 8] stepped by 1; the number of encoder/decoder layers is searched in {1, 2, 3, 4}. For the pre-trained models, i.e., BertGeneration, BART-base and T5-base, the maximum length in encoder is set to 512, and the maximum length in decoder is set to 64; learning rate ![](https://latex.codecogs.com/svg.image?\eta) is searched in {0.00002, 0.00005, 0.00007, 0.0001}; the number of epochs is searched in {3, 4, 5}. The optimal parameter settings are shown in Table 3. 
 
@@ -124,7 +124,7 @@ For RM, we apply a grid search in {0.0001, 0.001, 0.01, 0.1} for *support* and *
 ### 8. Bundle Auto-Naming
 
 #### Source code
-Please refer to [code](/code/bundle%20auto-naming/readme.md)
+Please refer to [code](/code/bundle%20auto-naming/ImageCap.ipynb)
 #### Parameter Settings
 For the ImageCap model, the maximum length in decoder is set to 64; learning rate ![](https://latex.codecogs.com/svg.image?\eta) is searched in {0.00002, 0.00005, 0.00007, 0.0001}; the number of epochs is searched in {3, 4, 5}. The optimal parameter settings are shown in Table 5. 
 

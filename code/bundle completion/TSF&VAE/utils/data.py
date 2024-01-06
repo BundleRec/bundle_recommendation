@@ -128,10 +128,7 @@ class PaddingTrainData(data.Dataset):
             user, item = int(row['user']), int(row['item'])
             self.R[user, item] = 1.
             self.mask_R[user, item] = 1.
-        # print('123')
-        # for _, row in test_set.iterrows():
-        #     user, item = int(row['user']), int(row['item'])
-        #     self.R[user, item] = 1.
+
 
     def __len__(self):
         return self.user_num
@@ -249,9 +246,6 @@ def pretrain_validate_npy_mat(user_num, item_num, df, embed):
         mean_embed = total / items.shape[0]
         for idx, vec in enumerate(mean_embed):
             mat[int(user), idx] = vec.detach().numpy()
-    # for _, row in df.iterrows():
-    #     u, i, r = row['user'], row['item'], row['rating']
-    #     mat[int(u), int(i)] = float(r)
     return mat
 
 
