@@ -18,7 +18,11 @@ Figure 2 visualizes worker feedback towards our task, where (a) shows the feedba
 <p align="center">Figure 2: Feedback from workers for the two batches.</p>
 
 
-### 3. Parameter Tuning and Settings for Bundle Detection
+### 3. Bundle Detection
+
+#### Source code
+Please to ....
+#### Parameter Settings
 A grid search in {0.0001, 0.001, 0.01} is applied to find out the optimal settings for *support* and *confidence*, and both are set as 0.001 across the three domains.
 
 
