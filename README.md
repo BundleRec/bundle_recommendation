@@ -21,7 +21,7 @@ Figure 2 visualizes worker feedback towards our task, where (a) shows the feedba
 ### 3. Bundle Detection
 
 #### Source code
-- **Pattern Mining** ([code](code/bundle%20detection/readme.md))
+- **Pattern Mining** ([code](code/bundle%20detection/Pattern%20Mining/test.py))
 
 #### Parameter Settings
 A grid search in {0.0001, 0.001, 0.01} is applied to find out the optimal settings for *support* and *confidence*, and both are set as 0.001 across the three domains.
@@ -32,9 +32,9 @@ A grid search in {0.0001, 0.001, 0.01} is applied to find out the optimal settin
 #### Source code
 - **ItemKNN & BPRMF** ([code](https://github.com/recsys-benchmark/DaisyRec-v2.0))
 
-- **Mean-VAE & Concat-VAE** ([code](/code/bundle%20completion/readme.md))
+- **Mean-VAE & Concat-VAE** ([code](/code/bundle%20completion/TSF&VAE/run_vae.py))
 
-- **TSF** ([code](/code/bundle%20completion/readme.md))
+- **TSF** ([code](/code/bundle%20completion/TSF&VAE/run_tsf.py))
 
 
 #### Parameter Settings
