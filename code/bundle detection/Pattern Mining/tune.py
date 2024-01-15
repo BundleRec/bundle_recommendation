@@ -1,5 +1,5 @@
 import numpy as np
-from apriori_bundle import apriori, getsession, issubset
+from apriori_bundle import apriori, issubset
 from collections import Counter
 import pandas as pd
 import argparse
