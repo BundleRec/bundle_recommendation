@@ -157,34 +157,3 @@ def apriori(itemSetList, minSup, minConf, pattern_size=2):
 
     return globalFreqItemSet, rules
 
-
-def connectdb():
-    db = psql.connect('192.168.2.104', 'root', 'XIAOkai3762', 'collectionA')
-    return db
-
-
-def getsession(bundleid):
-    conn = connectdb()
-    cursor = conn.cursor()
-    # sql = "select item_id from metadata_item where item_category = \'electronic\'"
-    # sql = "SELECT compairbundles.bundle_id,compairbundles.items, sampled_bundle.bundle_item FROM collectionA.compairbundles, sampled_bundle where compairbundles.bundle_id = sampled_bundle.bundle_id and sampled_bundle.bundle_domain = \"clothing\""
-    sql = "select bundle_item from bundle_set where bundle_id = %s"
-    # sql = "SELECT pairbundles.bundle_id,pairbundles.items, sampled_bundle.bundle_item FROM collectionA.pairbundles, sampled_bundle where pairbundles.bundle_id = sampled_bundle.bundle_id and sampled_bundle.bundle_domain = \"clothing\""
-    result = []
-    for bid in bundleid:
-        try:
-            # print('executing bundle_set...')
-            cursor.execute(sql, bid)
-            conn.commit()
-            # print('finished...')
-            res = cursor.fetchall()
-            result.append(res[0])
-        #   print(result)
-        # print(list(result))
-        except Exception as e:
-            print(e)
-            conn.rollback()
-
-    cursor.close()
-    conn.close()
-    return result
