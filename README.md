@@ -193,4 +193,6 @@ Please cite the following paper if you use **our dataset** in a research paper:
 
 Our datasets are constructed on the basis of Amazon datasets (http://jmcauley.ucsd.edu/data/amazon/links.html).
 
-All pre-trained models in bundle generation explanation are implemented based on Hugging Face (https://huggingface.co/).
+All pre-trained models in bundle generation explanation and bundle auto-naming are implemented based on Hugging Face (https://huggingface.co/).
+
+All seq2seq models in bundle generation explanation are implemented based on PyTorch tutorials (https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html).
