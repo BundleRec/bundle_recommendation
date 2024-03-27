@@ -175,7 +175,7 @@ Under the 'dataset' folder, there are three domains, including clothing, electro
 
 ### Cite
 
-Please cite the following paper if you use **our dataset** in a research paper:
+Please cite the following papers if you use **our dataset** in a research paper:
 
 ```
 @inproceedings{sun2022revisiting,
@@ -185,6 +185,13 @@ Please cite the following paper if you use **our dataset** in a research paper:
   year={2022}
 }
 
+@article{sun2024revisiting,
+  title={Revisiting Bundle Recommendation for Intent-aware Product Bundling},
+  author={Sun, Zhu and Feng, Kaidong and Yang, Jie and Fang, Hui and Qu, Xinghua and Ong, Yew-Soon and Liu, Wenyuan},
+  journal={ACM Transactions on Recommender Systems},
+  year={2024},
+  publisher={ACM New York, NY}
+}
 ```
 
 
